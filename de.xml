@@ -13,13 +13,13 @@
 </area>
 
 <area alias="defaultdialogs">
-	<key alias="cut">Cut</key>
+	<key alias="cut">ausschneiden</key>
 	<key alias="link">Link</key>
 	<key alias="insertlink">Link einfügen</key>
 	<key alias="insertgraphicheadline">Grafische Überschrift einfügen</key>
 	<key alias="linknewwindow">In einem neuen Fenster öffnen?</key>
 	<key alias="linkinternal">Anker:</key>
-	<key alias="linklocaltip">When using local links, insert "#" infront of link</key>
+	<key alias="linklocaltip">Wenn lokale Links verwendet werden, füge ein "#" vor den Link ein</key>
 	<key alias="insertimage">Abbildung einfügen</key>
 	<key alias="treepicker">Element auswählen</key>
 	<key alias="confirmdelete">Sind Sie sicher?</key>
@@ -28,7 +28,7 @@
 	<key alias="insertAnchor">Anker einfügen</key>
 	<key alias="anchorInsert">Name</key>
 	<key alias="insertMacro">Makro einfügen</key>
-	<key alias="insertCharacter">Insert character</key>
+	<key alias="insertCharacter">Zeichen einfügen</key>
 	<key alias="inserttable">Tabelle einfügen</key>
 	<key alias="tableColumns">Anzahl der Spalten</key>
 	<key alias="tableRows">Anzahl der Zeilen</key>
@@ -37,7 +37,7 @@
 	<key alias="confirmSure">Sind Sie sicher?</key>
 	<key alias="requiredField">Pflichtfeld</key>
 	<key alias="lastEdited">Zuletzt bearbeitet</key>
-	<key alias="siterepublished">Der Zwischenspeicher der Website wurde aktualisiert und alle veröffentlichten Inhalte sind jetzt auf dem neuesten Stand. Bisher unveröffentliche Inhalt wurden dabei nicht veröffentlicht.</key>
+	<key alias="siterepublished">Der Zwischenspeicher der Website wurde aktualisiert und alle veröffentlichten Inhalte sind jetzt auf dem neuesten Stand. Bisher unveröffentliche Inhalte wurden dabei nicht veröffentlicht.</key>
 	<key alias="siterepublishHelp">Der Zwischenspeicher der Website wird aktualisiert und der veröffentlichte Inhalt auf den neuesten Stand gebracht. Unveröffentlichte Inhalte bleiben dabei weiterhin unveröffentlicht.</key>
 	<key alias="sitereindexed">Die Website-Index wurd neu erstellt</key>
 	<key alias="editdictionary">Wörterbucheintrag bearbeiten</key>
@@ -50,9 +50,9 @@
 	<key alias="recycleBinWarning" version="4.0">Wenn Sie den Papierkorb leeren, werden die enthaltenen Elemente endgültig gelöscht. Dieser Vorgang kann <strong>nicht</strong> rückgängig gemacht werden.</key>
 	<key alias="recycleBinDeleting" version="4.0">Der Papierkorb wird geleert. Bitte warten Sie und schließen Sie das Fenster erst, wenn der Vorgang abgeschlossen ist.</key>
 	<key alias="closeThisWindow" version="4.0">Fenster schließen</key>
-    <key alias="removeMacro" version="4.5">Remove Macro</key>
-    <key alias="insertMacro" version="4.5">Click to add a Macro</key>
-	<key alias="macroContainerSettings" version="4.5">Macro Settings</key>
+    <key alias="removeMacro" version="4.5">Macro entfernen</key>
+    <key alias="insertMacro" version="4.5">klicken um Macro hinzuzufügen</key>
+	<key alias="macroContainerSettings" version="4.5">Macro Einstellungen</key>
 	<key alias="templateContentAreaHelp" version="4.0"><![CDATA[<strong>Legen Sie eine Platzhalter-ID fest.</strong> Anhand der festgelegten Platzhalter-ID können Sie Inhalte von untergeordneten Vorlagen in diese Vorlage integrieren, indem Sie das <code>&lt;asp:content /&gt;</code>-Element und die zugehörige Platzhalter-ID verwenden.]]></key>
 	<key alias="templateContentPlaceHolderHelp" version="4.0"><![CDATA[<strong>Wählen Sie eine Platzhalter-ID aus.</strong> Sie können nur unter den Platzhaltern der übergeordneten Vorlage wählen.]]></key>
 	<key alias="regexSearchHelp" version="4.0">Finden Sie einen vorbereiteten regulären Ausdruck zur Validierung der Werte, die in dieses Feld eingegeben werden - zum Beispiel 'email, 'plz', 'url' oder ähnlich.</key>
@@ -157,8 +157,8 @@
 </area>
 
 <area alias="lockout">
-	<key alias="lockoutWillOccur">You've been idle and logout will automatically occur in</key>
-	<key alias="renewSession">Renew now to save your work</key>
+	<key alias="lockoutWillOccur">Sie haben keine Tätigkeiten mehr durchgeführt und werden automatisch abgemeldet in</key>
+	<key alias="renewSession">Erneuern Sie um Ihre Arbeit zu speichern...</key>
 </area>
 
 <area alias="dashboard">
@@ -276,8 +276,8 @@
 	<key alias="localPackage" version="4.0">Lokales Paket hochladen und installieren</key>
 	<key alias="scripts" version="4.0">Client-Skripte</key>
 	<key alias="scripting" version="4.3">Server-Skripte</key>
-    <key alias="installStarterKit" version="4.6">Install starter kit</key>
-    <key alias="installSkin" version="4.6">Install skin</key>
+    <key alias="installStarterKit" version="4.6">Starter kit installieren</key>
+    <key alias="installSkin" version="4.6">Skin installieren</key>
 </area>
 
 <area alias="user">
@@ -306,14 +306,14 @@
 	<key alias="permissionSelectPages" version="4.0">Dokumente auswählen, um deren Berechtigungen zu ändern</key>
 	<key alias="permissionReplaceChildren" version="4.0">Die Berechtigungen der untergeordneten Elemente ersetzen</key>
 	<key alias="permissionSelectedPages" version="4.0"><![CDATA[Die Berechtigungen für folgende Seiten werden angepasst:]]></key>
-	<key alias="changePassword" version="4.6">Change Your Password</key>
-	<key alias="changePasswordDescription" version="4.6">You can change your password for accessing the Umbraco Back Office by filling out the form below and click the 'Change Password' button</key>
-	<key alias="passwordEnterNew" version="4.6">Enter your new password</key>
-    <key alias="passwordConfirm" version="4.6">Please confirm the new password</key>
-    <key alias="passwordChanged" version="4.6">Your password has been changed!</key>
-    <key alias="passwordIsDifferent" version="4.6">There was a difference between the new password and the confirmed password. Please try again!</key>
-    <key alias="passwordIsBlank" version="4.6">Your new password cannot be blank!</key>
-    <key alias="passwordMismatch" version="4.6">The confirmed password doesn't match the new password!</key>
+	<key alias="changePassword" version="4.6">Passwort ändern</key>
+	<key alias="changePasswordDescription" version="4.6">Sie können Ihr Passwort für den Zugriff auf den Umbraco-Verwaltungsbereich ändern, indem Sie das nachfolgende Formular ausfüllen und auf die 'Passwort ändern'-Schaltfläche klicken</key>
+	<key alias="passwordEnterNew" version="4.6">Geben Sie Ihr neues Passwort ein</key>
+    <key alias="passwordConfirm" version="4.6">Bitte wiederholen Sie Ihr neues Passwort</key>
+    <key alias="passwordChanged" version="4.6">Ihr Passwort wurde geändert!</key>
+    <key alias="passwordIsDifferent" version="4.6">Ihr neues Passwort und die Wiederholung Ihres neuen Passworts stimmen nicht überein. Bitte versuchen Sie es erneut!</key>
+    <key alias="passwordIsBlank" version="4.6">Ihr neues Passwort darf nicht leer sein!</key>
+    <key alias="passwordMismatch" version="4.6">Die Wiederholung Ihres Passworts stimmt nicht mit dem neuen Passwort überein!</key>
 </area>
 
 <area alias="settings">
@@ -326,7 +326,7 @@
 	<key alias="newtabname">Beschriftung des neuen Reiters</key>
 	<key alias="stylesheet" version="2.1">Stylesheet</key>
 	<key alias="stylesheet editor egenskab">Stylesheet-Eigenschaft</key>
-	<key alias="dictionary editor egenskab" version="2.1">Wörterbuch-Schlüselwort</key>
+	<key alias="dictionary editor egenskab" version="2.1">Wörterbuch-Schlüsselwort</key>
 	<key alias="importDocumentTypeHelp" version="3.0">Wählen Sie die lokale .udt-Datei aus, die den zu importierenden Dokumenttyp enthält und fahren Sie mit dem Import fort. Die endgültige Übernahme erfolgt im Anschluss erst nach einer weiteren Bestätigung.</key>
 </area>
 
@@ -368,8 +368,8 @@
 	<key alias="rollback" version="2.1">Zurücksetzen</key>
 	<key alias="emptyTrashcan" version="3.0">Papierkorb leeren</key>
 	<key alias="exportDocumentType" version="3.0">Dokumenttyp exportieren</key>
-	<key alias="exportDocumentTypeAsCode" version="3.0">Export to .NET</key>
-	<key alias="exportDocumentTypeAsCode-Full" version="3.0">Export to .NET</key>
+	<key alias="exportDocumentTypeAsCode" version="3.0">Export zu .NET</key>
+	<key alias="exportDocumentTypeAsCode-Full" version="3.0">Export zu .NET</key>
 	<key alias="importDocumentType" version="3.0">Dokumenttyp importieren</key>
 	<key alias="sendToTranslate" version="3.0">Zur Übersetzung senden</key>
 	<key alias="translate" version="3.0">Übersetzen</key>
@@ -407,7 +407,7 @@
 	<key alias="pythonErrorHeader">Python-Skript nicht gespeichert</key>
 	<key alias="pythonErrorText">Das Python-Skript enthält Fehler</key>
 	<key alias="templateSavedHeader">Vorlage gespeichert</key>
-	<key alias="templateSavedText">orlage erfolgreich gespeichert!</key>
+	<key alias="templateSavedText">Vorlage erfolgreich gespeichert!</key>
 	<key alias="templateErrorHeader">Vorlage wurde nicht gespeichert</key>
 	<key alias="templateErrorText">Bitte prüfen Sie, ob möglicherweise zwei Vorlagen den gleichen Alias verwenden.</key>
 	<key alias="cssSavedHeader">Stylesheet gespeichert</key>
@@ -417,7 +417,7 @@
 	<key alias="fileErrorText">Datei konnte nicht gespeichert werden. Bitte überprüfen Sie die Schreibrechte auf Dateiebene.</key>
 	<key alias="fileSavedHeader">Datei gespeichert</key>
 	<key alias="fileSavedText">Datei erfolgreich gespeichert</key>
-	<key alias="contentTypeSavedHeader">Dockumenttyp gespeichert</key>
+	<key alias="contentTypeSavedHeader">Dokumenttyp gespeichert</key>
 	<key alias="contentTypeTabCreated">Reiter erstellt</key>
 	<key alias="contentTypeTabDeleted">Reiter gelöscht</key>
 	<key alias="contentTypeTabDeletedText">Reiter %0% gelöscht</key>
@@ -452,7 +452,7 @@
 	<key alias="errorMessage">Der Text, den Sie einfügen möchten enthält Sonderzeichen oder spezielle Formatierungen. Dies kann zum Beispiel beim Kopieren aus Microsoft Word heraus passieren. Umbraco kann Sonderzeichen und spezielle Formatierungen automatisch entfernen damit der eingefügte Inhalt besser für das Internet geeignet ist.</key>
 	<key alias="removeSpecialFormattering">Einfügen, aber Formatierung bereinigen (Empfohlen)</key>
 	<key alias="removeAll">Als reinen Text ohne jede Formatierung einfügen</key>
-	<key alias="doNothing">Einfügen  Formatierung (Nicht empfohlen)</key>
+	<key alias="doNothing">Einfügen mit Formatierung (Nicht empfohlen)</key>
 </area>
 
 <area alias="assignDomain">
