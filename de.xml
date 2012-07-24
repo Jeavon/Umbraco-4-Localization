@@ -13,7 +13,7 @@
 </area>
 
 <area alias="defaultdialogs">
-	<key alias="cut">ausschneiden</key>
+	<key alias="cut">Ausschneiden</key>
 	<key alias="link">Link</key>
 	<key alias="insertlink">Link einfügen</key>
 	<key alias="insertgraphicheadline">Grafische Überschrift einfügen</key>
