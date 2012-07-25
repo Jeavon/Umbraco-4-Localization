@@ -790,32 +790,32 @@ Ihr Umbraco Robot
     <key alias="thankYou">Vielen Dank, dass Sie Umbraco ausgewählt haben!</key>
     <key alias="welcomeIntro"><![CDATA[Dieser Assistent führt Sie durch den Konfigurationsprozess einer frischen Installation von <strong>umbraco %0%</strong> oder einem Upgrade von Version 3.0.
                                 <br /><br />
-                                Klicken Sie <strong>'weiter'</strong> um den Assistenten zu starten.]]></key>
+                                Klicken Sie <strong>weiter</strong> um den Assistenten zu starten.]]></key>
     <key alias="greatStart">Schauen Sie sich für einen tollen Start unsere Einführungsvideos an.</key>
     <key alias="watch">Anschauen</key>
     <key alias="step1">Schritt 1/5 Lizenz akzeptieren</key>
     <key alias="licenseText">Mit dem Klick auf 'weiter' (oder durch Anpassung des umbracoConfigurationStatus in der web.config) stimmen Sie der Lizenz für diese Software zu, so wie im Kasten beschrieben. Bitte beachten Sie, dass diese umbraco-Distribution aus zwei Lizenzen besteht. Einer Open-Source MIT Lizenz für das Framework und einer der umbraco Freeware-Lizenz für die Oberfläche.</key>
     <key alias="step2">Schritt 2/5: Datenbankkonfiguration</key>
     <key alias="databaseHeader">Datenbankkonfiguration</key>
-    <key alias="databaseText"><![CDATA[Um diesen Schritt abzuschließen, müssen Sie einige Informationen zur Datenbankverbindung angeben ("Connection String").<br />
+    <key alias="databaseText"><![CDATA[Um diesen Schritt abzuschließen, müssen Sie einige Informationen zur Datenbankverbindung angeben ("connection string").<br />
         Bitte kontaktieren Sie Ihren ISP für weitere Informationen.
         Bei Installation auf einer lokalen Maschine benätigen Sie unter Umständen weitere Informationen von ihrem Administrator.]]></key>
     <key alias="databaseFound">Ihre Datenbank wurde gefunden und identifiziert als</key>
     <key alias="databaseUpToDate"><![CDATA[Ihre Datenbank ist vorbereitet!. Klicken Sie <strong>"weiter"</strong> um mit der Konfiguration fortzufahren.]]></key>
     <key alias="databaseUpgrade"><![CDATA[
       <p>
-      Drücken Sie den <strong>upgrade</strong> button to upgrade your database to Umbraco %0%</p>
+      Klicken Sie <strong>update</strong> um Ihre Datenbank auf Umbraco %0% zu aktualisieren.</p>
       <p>
-      Don't worry - no content will be deleted and everything will continue working afterwards!
+      Keine Sorge - Es werden keine Inhalte gelöscht und alles wird weiterhin funktionieren!
       </p>    
       ]]></key>
     <key alias="databaseInstall"><![CDATA[
-      Press the <strong>install</strong> button to install the Umbraco %0% database
+      Klicken Sie <strong>installieren</strong> um die Umbraco %0% Datenbank einzurichten.
     ]]></key>
-    <key alias="databaseNotFound"><![CDATA[<p>Database not found! Please check that the information in the "connection string" of the “web.config” file is correct.</p>
-              <p>To proceed, please edit the "web.config" file (using Visual Studio or your favourite text editor), scroll to the bottom, add the connection string for your database in the key named "umbracoDbDSN" and save the file. </p>
+    <key alias="databaseNotFound"><![CDATA[<p>Datenbank nicht gefunden! Bitte prüfen Sie den "connection string" in der “web.config”-Datei.</p>
+              <p>Um fortzufahren passen Sie bitte die "web.config"-Datei (mit Visual Studio oder einem beliebigen Text-Editor) entsprechend an. Scrollen Sie nach unten, fügen Sie den "connection string" für ihre Datenbank dem Eintrag "umbracoDbDSN" hinzu und Speichern Sie die Datei.</p>
               <p>
-              Click the <strong>retry</strong> button when 
+              Klicken Sie den <strong>retry</strong> button when 
               done.<br /><a href="http://umbraco.org/redir/installWebConfig" target="_blank">
 			              More information on editing web.config here.</a></p>]]></key>
     <key alias="databaseInstallDone"><![CDATA[Umbraco %0% has now been copied to your database. Press <strong>Next</strong> to proceed.]]></key>
