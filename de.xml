@@ -848,10 +848,10 @@ Ihr Umbraco Robot
     <key alias="permissionsSettingUpPermissions">Verzeichnisberechtigungen anpassen</key>
     <key alias="permissionsAffectedFolders">Betroffene Verzeichnisse und Dateien</key>
     <key alias="permissionsAffectedFoldersText">Für die folgenden Dateien und Verzeichnisse müssen ASP.NET Schreibberechtigungen gesetzt werden</key>
-    <key alias="permissionsAffectedFoldersMoreInfo">Weitere Informationen More information on setting up permissions for umbraco here</key>
-    <key alias="permissionsResolveFolderIssues">Resolving folder issue</key>
-    <key alias="permissionsResolveFolderIssuesLink">Follow this link for more information on problems with ASP.NET and creating folders</key>
-    <key alias="step4">Step 4/5: Check umbraco security</key>
+    <key alias="permissionsAffectedFoldersMoreInfo">Weitere Informationen zum Thema Berechtigung für umbraco hier</key>
+    <key alias="permissionsResolveFolderIssues">Verzeichnisprobleme lösen</key>
+    <key alias="permissionsResolveFolderIssuesLink">Folgen Sie diesem Link für weitere Informationen zum Thema ASP.NET und der Erstellung von Verzeichnissen.</key>
+    <key alias="step4">Schritt 4/5: umbraco Sicherheit prüfen</key>
     <key alias="defaultUserText"><![CDATA[
         <p>
           umbraco creates a default user with a login <strong>('admin')</strong> and password <strong>('default')</strong>. It's <strong>important</strong> that the password is 
