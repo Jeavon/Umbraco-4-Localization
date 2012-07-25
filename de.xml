@@ -782,8 +782,7 @@ Ihr Umbraco Robot
 	<key alias="packageNoUpgrades" version="4.0">Keine Updates verfügbar</key>
 	<key alias="packageUpgradeInstructions" version="4.0">Upgrade Instruktionen</key>
 	<key alias="packageUpgradeDownload" version="4.0">Update vom Repository herunterladen</key>
-	<key alias="chooseLocalPackageText" version="4.0">Wählen Sie ein Package auf Ihrem lokalen Rechner indem Sie auf den Schalter "Datei auswählen" drücken <br /> und  im folgenden Dialog auswählen. Umbraco-Packages besitzen gewöhnlich die Dateiendung ".umb" oder ".zip".</key>
-	<key alias="chooseLocalPackageText" version="4.0"><![CDATA[Choose Package from your machine, by clicking the Browse<br />button and locating the package. umbraco packages usually have a ".umb" or ".zip" extension.]]></key>
+	<key alias="chooseLocalPackageText" version="4.0"><![CDATA[Wählen Sie ein Package auf Ihrem lokalen Rechner indem Sie auf den Schalter "Datei auswählen" drücken <br /> und  im folgenden Dialog auswählen. Umbraco-Packages besitzen gewöhnlich die Dateiendung ".umb" oder ".zip".]]></key>
 </area>
 
 <area alias="installer" version="4.0">
@@ -882,12 +881,12 @@ Ihr Umbraco Robot
         </small>
       ]]></key>
     <key alias="runwayFromScratchText"><![CDATA[
-        Your website is completely empty at the moment, so that’s perfect if you want to start from scratch and create your own document types and templates. 
-        (<a href="http://umbraco.tv/documentation/videos/for-site-builders/foundation/document-types">learn how</a>)
-        You can still choose to install Runway later on. Please go to the Developer section and choose Packages.
+        Ihre Website ist zur Zeit komplett leer und kann verwendet werden um von Null zu starten und Ihre eigenen Dokumententypen und Vorlagen zu erstellen. 
+        (<a href="http://umbraco.tv/documentation/videos/for-site-builders/foundation/document-types">So geht's</a>)
+        Sie können Runway auch jederzeit später installieren. Verwenden Sie hierzu den Punkt "Packages" im "Developer" Bereich.
       ]]></key>
-    <key alias="runwayWhatIsRunway">What is Runway</key>
-    <key alias="runwayInstalled">Runway is installed</key>
+    <key alias="runwayWhatIsRunway">Was ist Runway?</key>
+    <key alias="runwayInstalled">Runway wurde installiert</key>
     <key alias="runwayInstalledText"><![CDATA[
       You have the foundation in place. Select what modules you wish to install on top of it.<br />
       This is our list of recommended modules, check off the ones you would like to install, or view the <a href="#" onclick="toggleModules(); return false;" id="toggleModuleList">full list of modules</a>
