@@ -790,21 +790,21 @@ Ihr Umbraco Robot
     <key alias="thankYou">Vielen Dank, dass Sie Umbraco ausgewählt haben!</key>
     <key alias="welcomeIntro"><![CDATA[Dieser Assistent führt Sie durch den Konfigurationsprozess einer frischen Installation von <strong>umbraco %0%</strong> oder einem Upgrade von Version 3.0.
                                 <br /><br />
-                                Klicken Sie <strong>"nächster "</strong> um den Assistenten zu starten.]]></key>
+                                Klicken Sie <strong>'weiter'</strong> um den Assistenten zu starten.]]></key>
     <key alias="greatStart">Schauen Sie sich für einen tollen Start unsere Einführungsvideos an.</key>
     <key alias="watch">Anschauen</key>
     <key alias="step1">Schritt 1/5 Lizenz akzeptieren</key>
-    <key alias="licenseText">Mit dem Klick auf By clicking the next button (or modifying the umbracoConfigurationStatus in web.config), you accept the license for this software as specified in the box below. Notice that this umbraco distribution consists of two different licenses, the open source MIT license for the framework and the umbraco freeware license that covers the UI.</key>
-    <key alias="step2">Step 2/5: Database configuration</key>
-    <key alias="databaseHeader">Database configuration</key>
-    <key alias="databaseText"><![CDATA[To complete this step, you must know some information regarding your database server ("connection string").<br />
-        Please contact your ISP if necessary.
-        If you're installing on a local machine or server you might need information from your system administrator.]]></key>
-    <key alias="databaseFound">Your database has been found and is identified as</key>
-    <key alias="databaseUpToDate"><![CDATA[Your current database is up-to-date!. Click <strong>next</strong> to continue the configuration wizard]]></key>
+    <key alias="licenseText">Mit dem Klick auf 'weiter' (oder durch Anpassung des umbracoConfigurationStatus in der web.config) stimmen Sie der Lizenz für diese Software zu, so wie im Kasten beschrieben. Bitte beachten Sie, dass diese umbraco-Distribution aus zwei Lizenzen besteht. Einer Open-Source MIT Lizenz für das Framework und einer der umbraco Freeware-Lizenz für die Oberfläche.</key>
+    <key alias="step2">Schritt 2/5: Datenbankkonfiguration</key>
+    <key alias="databaseHeader">Datenbankkonfiguration</key>
+    <key alias="databaseText"><![CDATA[Um diesen Schritt abzuschließen, müssen Sie einige Informationen zur Datenbankverbindung angeben ("Connection String").<br />
+        Bitte kontaktieren Sie Ihren ISP für weitere Informationen.
+        Bei Installation auf einer lokalen Maschine benätigen Sie unter Umständen weitere Informationen von ihrem Administrator.]]></key>
+    <key alias="databaseFound">Ihre Datenbank wurde gefunden und identifiziert als</key>
+    <key alias="databaseUpToDate"><![CDATA[Ihre Datenbank ist vorbereitet!. Klicken Sie <strong>"weiter"</strong> um mit der Konfiguration fortzufahren.]]></key>
     <key alias="databaseUpgrade"><![CDATA[
       <p>
-      Press the <strong>upgrade</strong> button to upgrade your database to Umbraco %0%</p>
+      Drücken Sie den <strong>upgrade</strong> button to upgrade your database to Umbraco %0%</p>
       <p>
       Don't worry - no content will be deleted and everything will continue working afterwards!
       </p>    
