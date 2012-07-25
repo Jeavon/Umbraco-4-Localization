@@ -494,7 +494,7 @@
 </area>
 
 <area alias="moveOrCopy">
-	<key alias="notValid">The action isn't allowed since you have insufficient permissions on 1 or more child documents.</key>
+	<key alias="notValid">Diese Aktion ist nicht erlaubt, da Sie unzureichende Berechtigungen für mindestens ein untergeordnetes Element haben.</key>
 	<key alias="moveTo">Bitte wählen Sie, wohin das Element %0% verschoben werden soll:</key>
 	<key alias="copyTo">Bitte wählen Sie, wohin das Element %0% kopiert werden soll:</key>
 	<key alias="noNodeSelected">Es ist noch kein Element ausgewählt. Bitte wählen Sie ein Element aus der Liste aus, bevor Sie fortfahren.</key>
@@ -605,7 +605,7 @@
 <area alias="errorHandling" version="2.1">
 	<key alias="errorHeader" version="2.1">Fehler sind aufgetreten:</key>
 	<key alias="errorHeaderWithoutTab" version="2.1">Fehler sind aufgetreten:</key>
-	<key alias="errorMandatory" version="2.1">%0% bei %1% ist ein Pflichtfelde</key>
+	<key alias="errorMandatory" version="2.1">%0% bei %1% ist ein Pflichtfeld</key>
 	<key alias="errorMandatoryWithoutTab" version="2.1">%0% ist ein Pflichtfeld</key>
 	<key alias="errorExistsWithoutTab" version="2.1">%0% bereits vorhanden</key>
 	<key alias="errorRegExp" version="2.1">%0% bei %1% hat ein falsches Format</key>
@@ -618,10 +618,10 @@
 
 <area alias="publicAccess" version="2.1">
 	<key alias="paHowWould" version="2.1">Bitte wählen Sie wie diese Seite geschützt werden soll</key>
-	<key alias="paSimple" version="2.1">Einzelner Userschutz</key>
-	<key alias="paSimpleHelp" version="4.0">Wenn Sie den einfachen Schutz mit einem einzelnen Login und Passweort einstellen wollen</key>
+	<key alias="paSimple" version="2.1">Einzelner Benutzerschutz</key>
+	<key alias="paSimpleHelp" version="4.0">Wenn Sie den einfachen Schutz mit einem einzelnen Login und Passwort einstellen wollen</key>
 	<key alias="paAdvanced" version="2.1">Rollenbasierter Schutz</key>
-	<key alias="paAdvancedHelp" version="2.1"><![CDATA[Wenn Sie rollenbasierte Authentifikation mit Umbraco's Mitgliedsgruppen verwenden wollen.]]></key>
+	<key alias="paAdvancedHelp" version="2.1"><![CDATA[Wenn Sie rollenbasierte Authentifikation mit Umbracos Mitgliedsgruppen verwenden wollen.]]></key>
 	<key alias="paAdvancedNoGroups" version="4.0"><![CDATA[Sie müssen erst eine Mitgliedsgruppe erstellen bevor Sie <br />rollenbasierte Authentifikation auswählen können.]]></key>
 	<key alias="paLoginPage" version="2.1">Loginseite</key>
 	<key alias="paErrorPage" version="2.1">Fehlerseite</key>
@@ -667,9 +667,9 @@ ausgeführt wurde.
 </p>
 <div style="margin: 8px 0; padding: 8px; display: block;">
 	<br />
-	<a style="color: white; font-weight: bold; background-color: #66cc66; text-decoration : none; margin-right: 20px; border: 8px solid #66cc66; width: 150px;" href="http://%4%/umbraco/actions/publish.aspx?id=%5%">&nbsp;&nbsp;PUBLISH&nbsp;&nbsp;</a> &nbsp; 
-	<a style="color: white; font-weight: bold; background-color: #5372c3; text-decoration : none; margin-right: 20px; border: 8px solid #5372c3; width: 150px;" href="http://%4%/umbraco/actions/editContent.aspx?id=%5%">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;EDIT&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</a> &nbsp; 
-	<a style="color: white; font-weight: bold; background-color: #ca4a4a; text-decoration : none; margin-right: 20px; border: 8px solid #ca4a4a; width: 150px;" href="http://%4%/umbraco/actions/delete.aspx?id=%5%">&nbsp;&nbsp;&nbsp;&nbsp;DELETE&nbsp;&nbsp;&nbsp;&nbsp;</a>
+	<a style="color: white; font-weight: bold; background-color: #66cc66; text-decoration : none; margin-right: 20px; border: 8px solid #66cc66; width: 150px;" href="http://%4%/umbraco/actions/publish.aspx?id=%5%">&nbsp;&nbsp;VERÖFFENTLICHEN&nbsp;&nbsp;</a> &nbsp; 
+	<a style="color: white; font-weight: bold; background-color: #5372c3; text-decoration : none; margin-right: 20px; border: 8px solid #5372c3; width: 150px;" href="http://%4%/umbraco/actions/editContent.aspx?id=%5%">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;BEARBEITEN&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</a> &nbsp; 
+	<a style="color: white; font-weight: bold; background-color: #ca4a4a; text-decoration : none; margin-right: 20px; border: 8px solid #ca4a4a; width: 150px;" href="http://%4%/umbraco/actions/delete.aspx?id=%5%">&nbsp;&nbsp;&nbsp;&nbsp;LÖSCHEN&nbsp;&nbsp;&nbsp;&nbsp;</a>
 	<br />
 </div>
 <p>
@@ -681,9 +681,9 @@ ausgeführt wurde.
 
 <div style="margin: 8px 0; padding: 8px; display: block;">
 	<br />
-	<a style="color: white; font-weight: bold; background-color: #66cc66; text-decoration : none; margin-right: 20px; border: 8px solid #66cc66; width: 150px;" href="http://%4%/umbraco/actions/publish.aspx?id=%5%">&nbsp;&nbsp;PUBLISH&nbsp;&nbsp;</a> &nbsp; 
-	<a style="color: white; font-weight: bold; background-color: #5372c3; text-decoration : none; margin-right: 20px; border: 8px solid #5372c3; width: 150px;" href="http://%4%/umbraco/actions/editContent.aspx?id=%5%">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;EDIT&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</a> &nbsp; 
-	<a style="color: white; font-weight: bold; background-color: #ca4a4a; text-decoration : none; margin-right: 20px; border: 8px solid #ca4a4a; width: 150px;" href="http://%4%/umbraco/actions/delete.aspx?id=%5%">&nbsp;&nbsp;&nbsp;&nbsp;DELETE&nbsp;&nbsp;&nbsp;&nbsp;</a>
+	<a style="color: white; font-weight: bold; background-color: #66cc66; text-decoration : none; margin-right: 20px; border: 8px solid #66cc66; width: 150px;" href="http://%4%/umbraco/actions/publish.aspx?id=%5%">&nbsp;&nbsp;VERÖFFENTLICHEN&nbsp;&nbsp;</a> &nbsp; 
+	<a style="color: white; font-weight: bold; background-color: #5372c3; text-decoration : none; margin-right: 20px; border: 8px solid #5372c3; width: 150px;" href="http://%4%/umbraco/actions/editContent.aspx?id=%5%">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;BEARBEITEN&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</a> &nbsp; 
+	<a style="color: white; font-weight: bold; background-color: #ca4a4a; text-decoration : none; margin-right: 20px; border: 8px solid #ca4a4a; width: 150px;" href="http://%4%/umbraco/actions/delete.aspx?id=%5%">&nbsp;&nbsp;&nbsp;&nbsp;LÖSCHEN&nbsp;&nbsp;&nbsp;&nbsp;</a>
 	<br />
 </div>
 
@@ -696,7 +696,7 @@ ausgeführt wurde.
 <area alias="translation">
 	<key alias="pageHasBeenSendToTranslation">Die Seite '%0%' wurde zum Übersetzen gesendet</key>
 	<key alias="sendToTranslate">Die Seite '%0%' zum Übersetzen senden</key>
-	<key alias="noTranslators">Kein User zur Übersetzung gefunden. Bitte erstellen Sie einen Übersetzer bevor Sie Seiten zum Übersetzen senden.</key>
+	<key alias="noTranslators">Kein Benutzer zur Übersetzung gefunden. Bitte erstellen Sie einen Übersetzer bevor Sie Seiten zum Übersetzen senden.</key>
 	<key alias="translator">Übersetzer</key>
 	<key alias="translateTo">Übersetzen in</key>
 	<key alias="mailSubject">[%0%] Übersetzungstask für %1%</key>
@@ -718,13 +718,13 @@ Ihr Umbraco Robot
 	</key>
 </area>
 <area alias="translation" version="3.0">
-    <key alias="pageHasBeenSendToTranslation" version="4.0">The page '%0%' has been send to translation</key>
-    <key alias="sendToTranslate" version="4.0">Send the page '%0%' to translation</key>
-    <key alias="noTranslators" version="4.0">No translator users found. Please create a translator user before you start sending content to translation</key>
-    <key alias="translator" version="4.0">Translator</key>
-    <key alias="translateTo" version="4.0">Translate to</key>
-    <key alias="includeSubpages" version="4.0">Include subpages</key>
-    <key alias="mailSubject" version="3.0">[%0%] Translation task for %1%</key>
+    <key alias="pageHasBeenSendToTranslation" version="4.0">Die Seite '%0%' wurde zum Übersetzen versendet</key>
+    <key alias="sendToTranslate" version="4.0">Sendet die Seite '%0%' zum übersetzen</key>
+    <key alias="noTranslators" version="4.0">Kein Benutzer zur Übersetzung gefunden. Bitte erstellen Sie einen Übersetzer bevor Sie Seiten zum Übersetzen senden.</key>
+    <key alias="translator" version="4.0">Übersetzer</key>
+    <key alias="translateTo" version="4.0">Übersetzen in</key>
+    <key alias="includeSubpages" version="4.0">Beinhaltet Unterseiten</key>
+    <key alias="mailSubject" version="3.0">[%0%] Übersetzungstask für %1%</key>
     <key alias="mailBody" version="3.0">
       Hi %0%
 
@@ -769,7 +769,7 @@ Ihr Umbraco Robot
 	<key alias="packageRepository" version="4.0">Package repository</key>
 	<key alias="packageReadme" version="4.0">Package Readme</key>
 	<key alias="packageOptions" version="4.0">Package Optionen</key>
-	<key alias="viewPackageWebsite" version="4.0">View package website</key>
+	<key alias="viewPackageWebsite" version="4.0">Package-Webseite betrachten/key>
 	<key alias="packageUninstallHeader" version="4.0">Package deinstallieren</key>
 	<key alias="packageUninstallText" version="4.0"><![CDATA[Sie können die Elemente, die Sie jetzt nicht deinstallieren möchten, unten demarkieren. Wenn Sie "Deinstallation bestätigen" klicken werden alle markierten Elemente entfernt.<br /><span style="color: Red; font-weight: bold;">Achtung:</span> alle Dokumente, Medien, etc, die von den zu entfernenden Elementen abhängen, werden nicht mehr funktionieren und können das System instabil machen. Bitte deinstallieren Sie also mit Vorsicht. Falls Sie unsicher sind kontaktieren Sie den Autor des Packages.]]></key>
 	<key alias="packageUninstallConfirm" version="4.0">Deinstallation bestätigen</key>
@@ -787,7 +787,7 @@ Ihr Umbraco Robot
 </area>
 
 <area alias="installer" version="4.0">
-    <key alias="thankYou">Thank you for choosing umbraco</key>
+    <key alias="thankYou">Vielen Dank, dass Sie Umbraco ausgewählt haben!</key>
     <key alias="welcomeIntro"><![CDATA[This wizard will guide you through the process of configuring <strong>umbraco %0%</strong> for a fresh install or upgrading from version 3.0.
                                 <br /><br />
                                 Press <strong>"next"</strong> to start the wizard.]]></key>
