@@ -393,7 +393,7 @@
 	<key alias="pythonErrorText">Das Python-Skript ist fehlerhaft und wurde daher nicht gespeichert.</key>
 	<key alias="contentTypeAliasAndNameNotNull">Bitte geben Sie die Bezeichnung und den Alias des neuen Dokumenttyps ein!</key>
 	<key alias="filePermissionsError">Es besteht ein Problem mit den Lese-/Schreibrechten auf eine Datei oder einen Ordner</key>
-	<key alias="codemirroriewarning">NOTE! Even though CodeMirror is enabled by configuration, it is disabled in Internet Explorer because it's not stable enough.</key>
+	<key alias="codemirroriewarning">ACHTUNG! Obwohl CodeMirror in den Einstellungen aktiviert ist bleibt es wegen mangelnder Stabilität im Internet Explorer inaktiv.</key>
 </area>
 
 <area alias="speechBubbles">
@@ -788,13 +788,13 @@ Ihr Umbraco Robot
 
 <area alias="installer" version="4.0">
     <key alias="thankYou">Vielen Dank, dass Sie Umbraco ausgewählt haben!</key>
-    <key alias="welcomeIntro"><![CDATA[This wizard will guide you through the process of configuring <strong>umbraco %0%</strong> for a fresh install or upgrading from version 3.0.
+    <key alias="welcomeIntro"><![CDATA[Dieser Assistent führt Sie durch den Konfigurationsprozess einer frischen Installation von <strong>umbraco %0%</strong> oder einem Upgrade von Version 3.0.
                                 <br /><br />
-                                Press <strong>"next"</strong> to start the wizard.]]></key>
-    <key alias="greatStart">Get a great start, watch our introduction videos</key>
-    <key alias="watch">Watch</key>
-    <key alias="step1">Step 1/5 Accept license</key>
-    <key alias="licenseText">By clicking the next button (or modifying the umbracoConfigurationStatus in web.config), you accept the license for this software as specified in the box below. Notice that this umbraco distribution consists of two different licenses, the open source MIT license for the framework and the umbraco freeware license that covers the UI.</key>
+                                Klicken Sie <strong>"nächster "</strong> um den Assistenten zu starten.]]></key>
+    <key alias="greatStart">Schauen Sie sich für einen tollen Start unsere Einführungsvideos an.</key>
+    <key alias="watch">Anschauen</key>
+    <key alias="step1">Schritt 1/5 Lizenz akzeptieren</key>
+    <key alias="licenseText">Mit dem Klick auf By clicking the next button (or modifying the umbracoConfigurationStatus in web.config), you accept the license for this software as specified in the box below. Notice that this umbraco distribution consists of two different licenses, the open source MIT license for the framework and the umbraco freeware license that covers the UI.</key>
     <key alias="step2">Step 2/5: Database configuration</key>
     <key alias="databaseHeader">Database configuration</key>
     <key alias="databaseText"><![CDATA[To complete this step, you must know some information regarding your database server ("connection string").<br />
