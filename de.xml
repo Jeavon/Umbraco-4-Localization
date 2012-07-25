@@ -888,21 +888,21 @@ Ihr Umbraco Robot
     <key alias="runwayWhatIsRunway">Was ist Runway?</key>
     <key alias="runwayInstalled">Runway wurde installiert</key>
     <key alias="runwayInstalledText"><![CDATA[
-      You have the foundation in place. Select what modules you wish to install on top of it.<br />
-      This is our list of recommended modules, check off the ones you would like to install, or view the <a href="#" onclick="toggleModules(); return false;" id="toggleModuleList">full list of modules</a>
+      Die Basis ist eingerichtet. Wählen Sie die Module aus, die Sie nun installieren möchten.<br />
+      Dies sind unsere empfohlenen Module. Schauen Sie sich die an, die Sie installieren möchten oder Sie sich die <a href="#" onclick="toggleModules(); return false;" id="toggleModuleList">komplette Liste der Module an.</a>
       ]]></key>
-    <key alias="runwayOnlyProUsers">Only recommended for experienced users</key>
-    <key alias="theEndHeader">Umbraco %0% is installed and ready for use</key>
-    <key alias="theEndInstallFailed"><![CDATA[To finish the installation, you'll need to 
-        manually edit the <strong>/web.config file</strong> and update the AppSetting key <strong>umbracoConfigurationStatus</strong> in the bottom to the value of <strong>'%0%'</strong>.]]></key>
-    <key alias="theEndInstallSuccess"><![CDATA[You can get <strong>started instantly</strong> by clicking the "Launch Umbraco" button below. <br />If you are <strong>new to umbraco</strong>, 
-you can find plenty of resources on our getting started pages.]]></key>
-    <key alias="theEndBrowseSite"><![CDATA[<h3>Browse your new site</h3>
-You installed Runway, so why not see how your new website looks.]]></key>
-    <key alias="theEndFurtherHelp"><![CDATA[<h3>Further help and information</h3>
-Get help from our award winning community, browse the documentation or watch some free videos on how to build a simple site, how to use packages and a quick guide to the umbraco terminology]]></key>
-    <key alias="theEndOpenUmbraco"><![CDATA[<h3>Launch Umbraco</h3>
-To manage your website, simply open the umbraco back office and start adding content, updating the templates and stylesheets or add new functionality]]></key>
+    <key alias="runwayOnlyProUsers">Nur für erfahrene Benutzer empfohlen</key>
+    <key alias="theEndHeader">Umbraco %0% wurde installiert und kann verwendet werden</key>
+    <key alias="theEndInstallFailed"><![CDATA[Um die Installation abzuschließen müssen müssen Sie  
+        die <strong>/web.config-Datei</strong> von Hand anpassen und den AppSetting-Schlüssel <strong>umbracoConfigurationStatus</strong> auf den Wert <strong>'%0%'</strong> ändern.]]></key>
+    <key alias="theEndInstallSuccess"><![CDATA[Sie können <strong>sofort starten</strong>, in dem Sie auf "Umbraco starten" klicken. <br />Wenn Sie <strong>umbraco zum ersten mal</strong>, 
+verwenden können Sie eine Menge von Informationen auf Ihrer "getting started"-Seite.]]></key>
+    <key alias="theEndBrowseSite"><![CDATA[<h3>Zur neuen Seite</h3>
+Sie haben Runway installiert, schauen Sie sich doch mal auf Ihrer Website um.]]></key>
+    <key alias="theEndFurtherHelp"><![CDATA[<h3>Weitere Hilfe und Informationen</h3>
+Hilfe von unserer preisgekrönten Community, Dokumentation und kostenfreie Videos, wie Sie eine einfache Website erstellen, ein Packages nutzen und eine schnelle Einführung in alle Umbraco-Begriffe]]></key>
+    <key alias="theEndOpenUmbraco"><![CDATA[<h3>Umbraco starten</h3>
+Um Ihre Website zu verwalten öffnen Sie einfach den Administrationsbereich beginnen Sie damit Inhalte hinzuzufügen, Vorlagen und Stylesheets zu bearbeiten oder neue Funktionen hinzuzufügen]]></key>
   </area>
   <area alias="relatedlinks">
     <key alias="modeUp"><![CDATA[Hoch]]></key>
