@@ -905,16 +905,16 @@ Get help from our award winning community, browse the documentation or watch som
 To manage your website, simply open the umbraco back office and start adding content, updating the templates and stylesheets or add new functionality]]></key>
   </area>
   <area alias="relatedlinks">
-    <key alias="modeUp"><![CDATA[Move Up]]></key>
-    <key alias="modeDown"><![CDATA[Move Down]]></key>
-    <key alias="removeLink"><![CDATA[Remove link]]></key>
-    <key alias="newWindow"><![CDATA[Open in new window]]></key>
-    <key alias="addInternal"><![CDATA[Add internal link]]></key>
-    <key alias="addExternal"><![CDATA[Add external link]]></key>
-    <key alias="caption"><![CDATA[Caption]]></key>
+    <key alias="modeUp"><![CDATA[Hoch]]></key>
+    <key alias="modeDown"><![CDATA[Runter]]></key>
+    <key alias="removeLink"><![CDATA[Link entfernen]]></key>
+    <key alias="newWindow"><![CDATA[In neuem Fenster öffnen]]></key>
+    <key alias="addInternal"><![CDATA[Neuer interner Link]]></key>
+    <key alias="addExternal"><![CDATA[Neuer exerner Link]]></key>
+    <key alias="caption"><![CDATA[Beschriftung]]></key>
     <key alias="linkurl"><![CDATA[URL]]></key>
-    <key alias="internalPage"><![CDATA[Internal page]]></key>
-    <key alias="addlink"><![CDATA[Add]]></key>
+    <key alias="internalPage"><![CDATA[Interne Seite]]></key>
+    <key alias="addlink"><![CDATA[Neu]]></key>
   </area>
   <key alias="transferCourierRevision">Transfer</key>
   <key alias="transferCourierItem">Transfer</key>
