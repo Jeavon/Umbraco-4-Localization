@@ -835,18 +835,18 @@ Ihr Umbraco Robot
     <key alias="permissionsPerfect"><![CDATA[<strong>Ihre Berechtigungs-Einstellungen sind perfekt!</strong><br /><br />
               Nun ist umbraco fertig eingerichtet und es können Packages installiert werden!]]></key>
     <key alias="permissionsAlmostPerfect"><![CDATA[<strong>Ihre Berechtigungs-Einstellungen sind fast perfekt!</strong><br /><br />
-        You can run umbraco without problems, but you will not be able to install packages which are recommended to take full advantage of umbraco.]]></key>
-    <key alias="permissionsNotReady"><![CDATA[<strong>Your permission settings are not ready for umbraco!</strong>
+        Sie können umbraco ohne Probleme verwenden, werden aber viele Packages nicht installieren können.]]></key>
+    <key alias="permissionsNotReady"><![CDATA[<strong>Ihre Berechtigungs-Einstellungen sind nicht geeignet!</strong>
           <br /><br />
-          In order to run umbraco, you'll need to update your permission settings.]]></key>
-    <key alias="permissionsMaybeAnIssue"><![CDATA[<strong>Your permission settings might be an issue!</strong>
+          Um umbraco zu verwenden müssen Sie Ihre Berechtigungs-Einstellungen anpassen.]]></key>
+    <key alias="permissionsMaybeAnIssue"><![CDATA[<strong>Ihre Berechtigungs-Einstellungen sind vermutlich fehlerhaft!</strong>
       <br/><br />
-      You can run umbraco without problems, but you will not be able to create folders or install packages which are recommended to take full advantage of umbraco.]]></key>
-    <key alias="permissionsHowtoResolve">How to Resolve</key>
-    <key alias="permissionsHowtoResolveText"><![CDATA[Watch our <strong>video tutorial</strong> on setting up folder permissions for umbraco or read the text version.]]></key>
-    <key alias="permissionsHowtoResolveLink">Click here to read the text version</key>
-    <key alias="permissionsSettingUpPermissions">Setting up folder permissions</key>
-    <key alias="permissionsAffectedFolders">Affected files and folders</key>
+      Sie können umbraco ohne Probleme verwenden, werden aber viele Packages nicht installieren können.]]></key>
+    <key alias="permissionsHowtoResolve">Problemlösung</key>
+    <key alias="permissionsHowtoResolveText"><![CDATA[Schauen Sie sich die <strong>Video-Tutorial</strong> zum Thema Verzeichnisberechtigungen für umbraco an oder lesen Sie die Text-Version.]]></key>
+    <key alias="permissionsHowtoResolveLink">Klicken Sie hier um die Text-Version zu lesen</key>
+    <key alias="permissionsSettingUpPermissions">Verzeichnisberechtigungen anpassen</key>
+    <key alias="permissionsAffectedFolders">Betroffene Verzeichnisse und Dateien</key>
     <key alias="permissionsAffectedFoldersText">You need to grant ASP.NET modify permissions to the following files/folders</key>
     <key alias="permissionsAffectedFoldersMoreInfo">More information on setting up permissions for umbraco here</key>
     <key alias="permissionsResolveFolderIssues">Resolving folder issue</key>
