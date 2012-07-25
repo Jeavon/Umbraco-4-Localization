@@ -854,31 +854,31 @@ Ihr Umbraco Robot
     <key alias="step4">Schritt 4/5: umbraco Sicherheit prüfen</key>
     <key alias="defaultUserText"><![CDATA[
         <p>
-          umbraco creates a default user with a login <strong>('admin')</strong> and password <strong>('default')</strong>. It's <strong>important</strong> that the password is 
-          changed to something unique.
+          umbraco erzeugt einen Standard-Benutzer mit dem Login-Namen <strong>('admin')</strong> und Passwort <strong>('default')</strong>. <strong>WICHTIG:</strong> Das Passwort
+          sollte in ein eigenes geändert werden.
         </p>
         <p>
-          This step will check the default user's password and suggest if it needs to be changed.
+          Dieser Schritt wird das Passwort des Standard-Benutzers prüfen und eventuell notwendige Änderungen vorschlagen.
         </p>
       ]]></key>
-    <key alias="defaultUserPasswordChanged">The password is changed!</key>
-    <key alias="defaultUserDisabled"><![CDATA[<strong>The Default user has been disabled or has no access to umbraco!</strong></p><p>No further actions needs to be taken. Click <b>Next</b> to proceed.]]></key>
-    <key alias="defaultUserPassChanged"><![CDATA[<strong>The Default user's password has been successfully changed since the installation!</strong></p><p>No further actions needs to be taken. Click <strong>Next</strong> to proceed.]]></key>
-    <key alias="defaultUserChangePass"><![CDATA[<strong>The Default users’ password needs to be changed!</strong>]]></key>
-    <key alias="step5">Step 5/5: Umbraco is ready to get you started</key>
-    <key alias="runwayHeader">You’ve just set up a clean Umbraco platform. What do you want to do next?</key>
-    <key alias="runwaySimpleSite">I want to start with a simple website</key>
-    <key alias="runwayFromScratch">I want to start from scratch</key>
+    <key alias="defaultUserPasswordChanged">Das Password wurde geändert!</key>
+    <key alias="defaultUserDisabled"><![CDATA[<strong>Der Standard-Benutzer wurde deaktiviert oder hat keinen Zugriff auf umbraco!</strong></p><p>Keine weiteren Aktionen sind notwendig. Klicken Sie <b>weiter</b> um fortzufahren.]]></key>
+    <key alias="defaultUserPassChanged"><![CDATA[<strong>Das Passwort des Standard-Nutzers wurde erfolgreich geändert seit der der Installation!</strong></p><p>Keine weiteren Aktionen sind notwendig. Klicken Sie <b>weiter</b> um fortzufahren.]]></key>
+    <key alias="defaultUserChangePass"><![CDATA[<strong>Das Passwort des Standard-Nutzers muss geändert werden!</strong>]]></key>
+    <key alias="step5">Schritt 5/5: Umbraco kann gestartet werden</key>
+    <key alias="runwayHeader">Sie haben gerade eine saubere umbraco plattform installiert. Was möchten Sie als nächstes tun?</key>
+    <key alias="runwaySimpleSite">Ich möchte mit einer einfache Website starten</key>
+    <key alias="runwayFromScratch">Ich möchte von Null an starten</key>
     <key alias="runwaySimpleSiteText"><![CDATA[
       <p>
-      "Runway" is a simple website providing some basic document types and templates. The installer can set up Runway for you automatically, 
-        but you can easily edit, extend or remove it. It’s not necessary and you can perfectly use Umbraco without it. However, 
-        Runway offers an easy foundation based on best practices to get you started faster than ever.
-        If you choose to install Runway, you can optionally select basic building blocks called Runway Modules to enhance your Runway pages.
+      "Runway" ist eine einfache Website mit einfachen Dokumententypen und Vorlagen. Der Installer kann Runway automatisch einrichten, 
+        aber es kann einfach verändert, erweitert oder entfernt werden. Es ist nicht zwingend notwendig und umbraco kann auch ohne Runway verwendet werden. 
+        Runway bietet eine einfache Basis zum schnellen Start mit umbraco.
+        Wenn Sie sich für Runway entscheiden, können Sie optional Blöcke nutzen, die "Runway Modules" und Ihre Runway-Seite erweitern.
         </p>
         <small>
-        <em>Included with Runway:</em> Home page, Getting Started page, Installing Modules page.<br />
-        <em>Optional Modules:</em> Top Navigation, Sitemap, Contact, Gallery.
+        <em>Runway umfasst:</em> Home page, Getting Started page, Installing Modules page.<br />
+        <em>Optionale Module:</em> Top Navigation, Sitemap, Contact, Gallery.
         </small>
       ]]></key>
     <key alias="runwayFromScratchText"><![CDATA[
