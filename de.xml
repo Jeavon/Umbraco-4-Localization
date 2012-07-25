@@ -847,8 +847,8 @@ Ihr Umbraco Robot
     <key alias="permissionsHowtoResolveLink">Klicken Sie hier um die Text-Version zu lesen</key>
     <key alias="permissionsSettingUpPermissions">Verzeichnisberechtigungen anpassen</key>
     <key alias="permissionsAffectedFolders">Betroffene Verzeichnisse und Dateien</key>
-    <key alias="permissionsAffectedFoldersText">You need to grant ASP.NET modify permissions to the following files/folders</key>
-    <key alias="permissionsAffectedFoldersMoreInfo">More information on setting up permissions for umbraco here</key>
+    <key alias="permissionsAffectedFoldersText">Für die folgenden Dateien und Verzeichnisse müssen ASP.NET Schreibberechtigungen gesetzt werden</key>
+    <key alias="permissionsAffectedFoldersMoreInfo">Weitere Informationen More information on setting up permissions for umbraco here</key>
     <key alias="permissionsResolveFolderIssues">Resolving folder issue</key>
     <key alias="permissionsResolveFolderIssuesLink">Follow this link for more information on problems with ASP.NET and creating folders</key>
     <key alias="step4">Step 4/5: Check umbraco security</key>
