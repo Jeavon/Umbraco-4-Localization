@@ -815,26 +815,26 @@ Ihr Umbraco Robot
     <key alias="databaseNotFound"><![CDATA[<p>Datenbank nicht gefunden! Bitte prüfen Sie den "connection string" in der “web.config”-Datei.</p>
               <p>Um fortzufahren passen Sie bitte die "web.config"-Datei (mit Visual Studio oder einem beliebigen Text-Editor) entsprechend an. Scrollen Sie nach unten, fügen Sie den "connection string" für ihre Datenbank dem Eintrag "umbracoDbDSN" hinzu und Speichern Sie die Datei.</p>
               <p>
-              Klicken Sie den <strong>retry</strong> button when 
-              done.<br /><a href="http://umbraco.org/redir/installWebConfig" target="_blank">
-			              More information on editing web.config here.</a></p>]]></key>
-    <key alias="databaseInstallDone"><![CDATA[Umbraco %0% has now been copied to your database. Press <strong>Next</strong> to proceed.]]></key>
-    <key alias="databaseUpgradeDone"><![CDATA[Your database has been upgraded to the final version %0%.<br />Press <strong>Next</strong> to 
-      proceed. ]]></key>
-    <key alias="databaseErrorCannotConnect">The installer cannot connect to the database.</key>
-    <key alias="databaseErrorWebConfig">Could not save the web.config file. Please modify the connection string manually.</key>
-    <key alias="Unavailable">Connection to database failed.</key>
-    <key alias="None">Not installed yet.</key>
+              Klicken Sie <strong>Wiederholen</strong> nach der Anpassung.
+		<br /><a href="http://umbraco.org/redir/installWebConfig" target="_blank">
+			              Weitere Informationen zur web.config finden Sie hier.</a></p>]]></key>
+    <key alias="databaseInstallDone"><![CDATA[Umbraco %0% wurde nun in ihre Datenbank kopiert. Drücken Sie <strong>weiter</strong> um fortzufahren.]]></key>
+    <key alias="databaseUpgradeDone"><![CDATA[Ihre Datenbank wurde auf die letzte Version %0% aktualisiert.<br />Drücken Sie <strong>weiter</strong> um 
+      fortzufahren. ]]></key>
+    <key alias="databaseErrorCannotConnect">Der Installer kann sich nicht mit der Datenbank verbinden.</key>
+    <key alias="databaseErrorWebConfig">Die web.config-Datei konnte nicht angepasst werden. Bitte passen Sie den 'connection string' manuell an.</key>
+    <key alias="Unavailable">Verbindung zur Datenbank fehlgeschlagen.</key>
+    <key alias="None">Noch nicht installiert.</key>
     <key alias="Version3">Umbraco Version 3</key>
     <key alias="Version4">Umbraco Version 4</key>
-    <key alias="step3">Step 3/5: Validating File Permissions</key>
+    <key alias="step3">Schritt 3/5: Überprüfung der Dateiberechtigungen</key>
     <key alias="permissionsText">
-      umbraco needs write/modify access to certain directories in order to store files like pictures and PDF's.
-      It also stores temporary data (aka: cache) for enhancing the performance of your website.
+      umbraco benötigt Schreibrechte für verschiedene Verzeichnisse um Dateien wie Bilder oder PDFs speichern zu können.
+      Außerdem werden temporäre Daten (Cache) zur Verbesserung der Website-Performance gespeichert.
     </key>
-    <key alias="permissionsPerfect"><![CDATA[<strong>Your permission settings are perfect!</strong><br /><br />
-              You are ready to run umbraco and install packages!]]></key>
-    <key alias="permissionsAlmostPerfect"><![CDATA[<strong>Your permission settings are almost perfect!</strong><br /><br />
+    <key alias="permissionsPerfect"><![CDATA[<strong>Ihre Berechtigungs-Einstellungen sind perfekt!</strong><br /><br />
+              Nun ist umbraco fertig eingerichtet und es können Packages installiert werden!]]></key>
+    <key alias="permissionsAlmostPerfect"><![CDATA[<strong>Ihre Berechtigungs-Einstellungen sind fast perfekt!</strong><br /><br />
         You can run umbraco without problems, but you will not be able to install packages which are recommended to take full advantage of umbraco.]]></key>
     <key alias="permissionsNotReady"><![CDATA[<strong>Your permission settings are not ready for umbraco!</strong>
           <br /><br />
