@@ -13,13 +13,13 @@
 </area>
 
 <area alias="defaultdialogs">
-	<key alias="cut">Cut</key>
+	<key alias="cut">Ausschneiden</key>
 	<key alias="link">Link</key>
 	<key alias="insertlink">Link einfügen</key>
 	<key alias="insertgraphicheadline">Grafische Überschrift einfügen</key>
 	<key alias="linknewwindow">In einem neuen Fenster öffnen?</key>
 	<key alias="linkinternal">Anker:</key>
-	<key alias="linklocaltip">When using local links, insert "#" infront of link</key>
+	<key alias="linklocaltip">Wenn lokale Links verwendet werden, füge ein "#" vor den Link ein</key>
 	<key alias="insertimage">Abbildung einfügen</key>
 	<key alias="treepicker">Element auswählen</key>
 	<key alias="confirmdelete">Sind Sie sicher?</key>
@@ -28,7 +28,7 @@
 	<key alias="insertAnchor">Anker einfügen</key>
 	<key alias="anchorInsert">Name</key>
 	<key alias="insertMacro">Makro einfügen</key>
-	<key alias="insertCharacter">Insert character</key>
+	<key alias="insertCharacter">Zeichen einfügen</key>
 	<key alias="inserttable">Tabelle einfügen</key>
 	<key alias="tableColumns">Anzahl der Spalten</key>
 	<key alias="tableRows">Anzahl der Zeilen</key>
@@ -37,7 +37,7 @@
 	<key alias="confirmSure">Sind Sie sicher?</key>
 	<key alias="requiredField">Pflichtfeld</key>
 	<key alias="lastEdited">Zuletzt bearbeitet</key>
-	<key alias="siterepublished">Der Zwischenspeicher der Website wurde aktualisiert und alle veröffentlichten Inhalte sind jetzt auf dem neuesten Stand. Bisher unveröffentliche Inhalt wurden dabei nicht veröffentlicht.</key>
+	<key alias="siterepublished">Der Zwischenspeicher der Website wurde aktualisiert und alle veröffentlichten Inhalte sind jetzt auf dem neuesten Stand. Bisher unveröffentliche Inhalte wurden dabei nicht veröffentlicht.</key>
 	<key alias="siterepublishHelp">Der Zwischenspeicher der Website wird aktualisiert und der veröffentlichte Inhalt auf den neuesten Stand gebracht. Unveröffentlichte Inhalte bleiben dabei weiterhin unveröffentlicht.</key>
 	<key alias="sitereindexed">Die Website-Index wurd neu erstellt</key>
 	<key alias="editdictionary">Wörterbucheintrag bearbeiten</key>
@@ -50,9 +50,9 @@
 	<key alias="recycleBinWarning" version="4.0">Wenn Sie den Papierkorb leeren, werden die enthaltenen Elemente endgültig gelöscht. Dieser Vorgang kann <strong>nicht</strong> rückgängig gemacht werden.</key>
 	<key alias="recycleBinDeleting" version="4.0">Der Papierkorb wird geleert. Bitte warten Sie und schließen Sie das Fenster erst, wenn der Vorgang abgeschlossen ist.</key>
 	<key alias="closeThisWindow" version="4.0">Fenster schließen</key>
-    <key alias="removeMacro" version="4.5">Remove Macro</key>
-    <key alias="insertMacro" version="4.5">Click to add a Macro</key>
-	<key alias="macroContainerSettings" version="4.5">Macro Settings</key>
+    <key alias="removeMacro" version="4.5">Macro entfernen</key>
+    <key alias="insertMacro" version="4.5">klicken um Macro hinzuzufügen</key>
+	<key alias="macroContainerSettings" version="4.5">Macro Einstellungen</key>
 	<key alias="templateContentAreaHelp" version="4.0"><![CDATA[<strong>Legen Sie eine Platzhalter-ID fest.</strong> Anhand der festgelegten Platzhalter-ID können Sie Inhalte von untergeordneten Vorlagen in diese Vorlage integrieren, indem Sie das <code>&lt;asp:content /&gt;</code>-Element und die zugehörige Platzhalter-ID verwenden.]]></key>
 	<key alias="templateContentPlaceHolderHelp" version="4.0"><![CDATA[<strong>Wählen Sie eine Platzhalter-ID aus.</strong> Sie können nur unter den Platzhaltern der übergeordneten Vorlage wählen.]]></key>
 	<key alias="regexSearchHelp" version="4.0">Finden Sie einen vorbereiteten regulären Ausdruck zur Validierung der Werte, die in dieses Feld eingegeben werden - zum Beispiel 'email, 'plz', 'url' oder ähnlich.</key>
@@ -157,8 +157,8 @@
 </area>
 
 <area alias="lockout">
-	<key alias="lockoutWillOccur">You've been idle and logout will automatically occur in</key>
-	<key alias="renewSession">Renew now to save your work</key>
+	<key alias="lockoutWillOccur">Sie haben keine Tätigkeiten mehr durchgeführt und werden automatisch abgemeldet in</key>
+	<key alias="renewSession">Erneuern Sie um Ihre Arbeit zu speichern...</key>
 </area>
 
 <area alias="dashboard">
@@ -276,8 +276,8 @@
 	<key alias="localPackage" version="4.0">Lokales Paket hochladen und installieren</key>
 	<key alias="scripts" version="4.0">Client-Skripte</key>
 	<key alias="scripting" version="4.3">Server-Skripte</key>
-    <key alias="installStarterKit" version="4.6">Install starter kit</key>
-    <key alias="installSkin" version="4.6">Install skin</key>
+    <key alias="installStarterKit" version="4.6">Starter kit installieren</key>
+    <key alias="installSkin" version="4.6">Skin installieren</key>
 </area>
 
 <area alias="user">
@@ -306,14 +306,14 @@
 	<key alias="permissionSelectPages" version="4.0">Dokumente auswählen, um deren Berechtigungen zu ändern</key>
 	<key alias="permissionReplaceChildren" version="4.0">Die Berechtigungen der untergeordneten Elemente ersetzen</key>
 	<key alias="permissionSelectedPages" version="4.0"><![CDATA[Die Berechtigungen für folgende Seiten werden angepasst:]]></key>
-	<key alias="changePassword" version="4.6">Change Your Password</key>
-	<key alias="changePasswordDescription" version="4.6">You can change your password for accessing the Umbraco Back Office by filling out the form below and click the 'Change Password' button</key>
-	<key alias="passwordEnterNew" version="4.6">Enter your new password</key>
-    <key alias="passwordConfirm" version="4.6">Please confirm the new password</key>
-    <key alias="passwordChanged" version="4.6">Your password has been changed!</key>
-    <key alias="passwordIsDifferent" version="4.6">There was a difference between the new password and the confirmed password. Please try again!</key>
-    <key alias="passwordIsBlank" version="4.6">Your new password cannot be blank!</key>
-    <key alias="passwordMismatch" version="4.6">The confirmed password doesn't match the new password!</key>
+	<key alias="changePassword" version="4.6">Passwort ändern</key>
+	<key alias="changePasswordDescription" version="4.6">Sie können Ihr Passwort für den Zugriff auf den Umbraco-Verwaltungsbereich ändern, indem Sie das nachfolgende Formular ausfüllen und auf die 'Passwort ändern'-Schaltfläche klicken</key>
+	<key alias="passwordEnterNew" version="4.6">Geben Sie Ihr neues Passwort ein</key>
+    <key alias="passwordConfirm" version="4.6">Bitte wiederholen Sie Ihr neues Passwort</key>
+    <key alias="passwordChanged" version="4.6">Ihr Passwort wurde geändert!</key>
+    <key alias="passwordIsDifferent" version="4.6">Ihr neues Passwort und die Wiederholung Ihres neuen Passworts stimmen nicht überein. Bitte versuchen Sie es erneut!</key>
+    <key alias="passwordIsBlank" version="4.6">Ihr neues Passwort darf nicht leer sein!</key>
+    <key alias="passwordMismatch" version="4.6">Die Wiederholung Ihres Passworts stimmt nicht mit dem neuen Passwort überein!</key>
 </area>
 
 <area alias="settings">
@@ -326,7 +326,7 @@
 	<key alias="newtabname">Beschriftung des neuen Reiters</key>
 	<key alias="stylesheet" version="2.1">Stylesheet</key>
 	<key alias="stylesheet editor egenskab">Stylesheet-Eigenschaft</key>
-	<key alias="dictionary editor egenskab" version="2.1">Wörterbuch-Schlüselwort</key>
+	<key alias="dictionary editor egenskab" version="2.1">Wörterbuch-Schlüsselwort</key>
 	<key alias="importDocumentTypeHelp" version="3.0">Wählen Sie die lokale .udt-Datei aus, die den zu importierenden Dokumenttyp enthält und fahren Sie mit dem Import fort. Die endgültige Übernahme erfolgt im Anschluss erst nach einer weiteren Bestätigung.</key>
 </area>
 
@@ -368,8 +368,8 @@
 	<key alias="rollback" version="2.1">Zurücksetzen</key>
 	<key alias="emptyTrashcan" version="3.0">Papierkorb leeren</key>
 	<key alias="exportDocumentType" version="3.0">Dokumenttyp exportieren</key>
-	<key alias="exportDocumentTypeAsCode" version="3.0">Export to .NET</key>
-	<key alias="exportDocumentTypeAsCode-Full" version="3.0">Export to .NET</key>
+	<key alias="exportDocumentTypeAsCode" version="3.0">Export zu .NET</key>
+	<key alias="exportDocumentTypeAsCode-Full" version="3.0">Export zu .NET</key>
 	<key alias="importDocumentType" version="3.0">Dokumenttyp importieren</key>
 	<key alias="sendToTranslate" version="3.0">Zur Übersetzung senden</key>
 	<key alias="translate" version="3.0">Übersetzen</key>
@@ -393,7 +393,7 @@
 	<key alias="pythonErrorText">Das Python-Skript ist fehlerhaft und wurde daher nicht gespeichert.</key>
 	<key alias="contentTypeAliasAndNameNotNull">Bitte geben Sie die Bezeichnung und den Alias des neuen Dokumenttyps ein!</key>
 	<key alias="filePermissionsError">Es besteht ein Problem mit den Lese-/Schreibrechten auf eine Datei oder einen Ordner</key>
-	<key alias="codemirroriewarning">NOTE! Even though CodeMirror is enabled by configuration, it is disabled in Internet Explorer because it's not stable enough.</key>
+	<key alias="codemirroriewarning">ACHTUNG! Obwohl CodeMirror in den Einstellungen aktiviert ist bleibt es wegen mangelnder Stabilität im Internet Explorer inaktiv.</key>
 </area>
 
 <area alias="speechBubbles">
@@ -407,7 +407,7 @@
 	<key alias="pythonErrorHeader">Python-Skript nicht gespeichert</key>
 	<key alias="pythonErrorText">Das Python-Skript enthält Fehler</key>
 	<key alias="templateSavedHeader">Vorlage gespeichert</key>
-	<key alias="templateSavedText">orlage erfolgreich gespeichert!</key>
+	<key alias="templateSavedText">Vorlage erfolgreich gespeichert!</key>
 	<key alias="templateErrorHeader">Vorlage wurde nicht gespeichert</key>
 	<key alias="templateErrorText">Bitte prüfen Sie, ob möglicherweise zwei Vorlagen den gleichen Alias verwenden.</key>
 	<key alias="cssSavedHeader">Stylesheet gespeichert</key>
@@ -417,7 +417,7 @@
 	<key alias="fileErrorText">Datei konnte nicht gespeichert werden. Bitte überprüfen Sie die Schreibrechte auf Dateiebene.</key>
 	<key alias="fileSavedHeader">Datei gespeichert</key>
 	<key alias="fileSavedText">Datei erfolgreich gespeichert</key>
-	<key alias="contentTypeSavedHeader">Dockumenttyp gespeichert</key>
+	<key alias="contentTypeSavedHeader">Dokumenttyp gespeichert</key>
 	<key alias="contentTypeTabCreated">Reiter erstellt</key>
 	<key alias="contentTypeTabDeleted">Reiter gelöscht</key>
 	<key alias="contentTypeTabDeletedText">Reiter %0% gelöscht</key>
@@ -452,7 +452,7 @@
 	<key alias="errorMessage">Der Text, den Sie einfügen möchten enthält Sonderzeichen oder spezielle Formatierungen. Dies kann zum Beispiel beim Kopieren aus Microsoft Word heraus passieren. Umbraco kann Sonderzeichen und spezielle Formatierungen automatisch entfernen damit der eingefügte Inhalt besser für das Internet geeignet ist.</key>
 	<key alias="removeSpecialFormattering">Einfügen, aber Formatierung bereinigen (Empfohlen)</key>
 	<key alias="removeAll">Als reinen Text ohne jede Formatierung einfügen</key>
-	<key alias="doNothing">Einfügen  Formatierung (Nicht empfohlen)</key>
+	<key alias="doNothing">Einfügen mit Formatierung (Nicht empfohlen)</key>
 </area>
 
 <area alias="assignDomain">
@@ -494,7 +494,7 @@
 </area>
 
 <area alias="moveOrCopy">
-	<key alias="notValid">The action isn't allowed since you have insufficient permissions on 1 or more child documents.</key>
+	<key alias="notValid">Diese Aktion ist nicht erlaubt, da Sie unzureichende Berechtigungen für mindestens ein untergeordnetes Element haben.</key>
 	<key alias="moveTo">Bitte wählen Sie, wohin das Element %0% verschoben werden soll:</key>
 	<key alias="copyTo">Bitte wählen Sie, wohin das Element %0% kopiert werden soll:</key>
 	<key alias="noNodeSelected">Es ist noch kein Element ausgewählt. Bitte wählen Sie ein Element aus der Liste aus, bevor Sie fortfahren.</key>
@@ -605,7 +605,7 @@
 <area alias="errorHandling" version="2.1">
 	<key alias="errorHeader" version="2.1">Fehler sind aufgetreten:</key>
 	<key alias="errorHeaderWithoutTab" version="2.1">Fehler sind aufgetreten:</key>
-	<key alias="errorMandatory" version="2.1">%0% bei %1% ist ein Pflichtfelde</key>
+	<key alias="errorMandatory" version="2.1">%0% bei %1% ist ein Pflichtfeld</key>
 	<key alias="errorMandatoryWithoutTab" version="2.1">%0% ist ein Pflichtfeld</key>
 	<key alias="errorExistsWithoutTab" version="2.1">%0% bereits vorhanden</key>
 	<key alias="errorRegExp" version="2.1">%0% bei %1% hat ein falsches Format</key>
@@ -618,10 +618,10 @@
 
 <area alias="publicAccess" version="2.1">
 	<key alias="paHowWould" version="2.1">Bitte wählen Sie wie diese Seite geschützt werden soll</key>
-	<key alias="paSimple" version="2.1">Einzelner Userschutz</key>
-	<key alias="paSimpleHelp" version="4.0">Wenn Sie den einfachen Schutz mit einem einzelnen Login und Passweort einstellen wollen</key>
+	<key alias="paSimple" version="2.1">Einzelner Benutzerschutz</key>
+	<key alias="paSimpleHelp" version="4.0">Wenn Sie den einfachen Schutz mit einem einzelnen Login und Passwort einstellen wollen</key>
 	<key alias="paAdvanced" version="2.1">Rollenbasierter Schutz</key>
-	<key alias="paAdvancedHelp" version="2.1"><![CDATA[Wenn Sie rollenbasierte Authentifikation mit Umbraco's Mitgliedsgruppen verwenden wollen.]]></key>
+	<key alias="paAdvancedHelp" version="2.1"><![CDATA[Wenn Sie rollenbasierte Authentifikation mit Umbracos Mitgliedsgruppen verwenden wollen.]]></key>
 	<key alias="paAdvancedNoGroups" version="4.0"><![CDATA[Sie müssen erst eine Mitgliedsgruppe erstellen bevor Sie <br />rollenbasierte Authentifikation auswählen können.]]></key>
 	<key alias="paLoginPage" version="2.1">Loginseite</key>
 	<key alias="paErrorPage" version="2.1">Fehlerseite</key>
@@ -667,9 +667,9 @@ ausgeführt wurde.
 </p>
 <div style="margin: 8px 0; padding: 8px; display: block;">
 	<br />
-	<a style="color: white; font-weight: bold; background-color: #66cc66; text-decoration : none; margin-right: 20px; border: 8px solid #66cc66; width: 150px;" href="http://%4%/umbraco/actions/publish.aspx?id=%5%">&nbsp;&nbsp;PUBLISH&nbsp;&nbsp;</a> &nbsp; 
-	<a style="color: white; font-weight: bold; background-color: #5372c3; text-decoration : none; margin-right: 20px; border: 8px solid #5372c3; width: 150px;" href="http://%4%/umbraco/actions/editContent.aspx?id=%5%">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;EDIT&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</a> &nbsp; 
-	<a style="color: white; font-weight: bold; background-color: #ca4a4a; text-decoration : none; margin-right: 20px; border: 8px solid #ca4a4a; width: 150px;" href="http://%4%/umbraco/actions/delete.aspx?id=%5%">&nbsp;&nbsp;&nbsp;&nbsp;DELETE&nbsp;&nbsp;&nbsp;&nbsp;</a>
+	<a style="color: white; font-weight: bold; background-color: #66cc66; text-decoration : none; margin-right: 20px; border: 8px solid #66cc66; width: 150px;" href="http://%4%/umbraco/actions/publish.aspx?id=%5%">&nbsp;&nbsp;VERÖFFENTLICHEN&nbsp;&nbsp;</a> &nbsp; 
+	<a style="color: white; font-weight: bold; background-color: #5372c3; text-decoration : none; margin-right: 20px; border: 8px solid #5372c3; width: 150px;" href="http://%4%/umbraco/actions/editContent.aspx?id=%5%">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;BEARBEITEN&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</a> &nbsp; 
+	<a style="color: white; font-weight: bold; background-color: #ca4a4a; text-decoration : none; margin-right: 20px; border: 8px solid #ca4a4a; width: 150px;" href="http://%4%/umbraco/actions/delete.aspx?id=%5%">&nbsp;&nbsp;&nbsp;&nbsp;LÖSCHEN&nbsp;&nbsp;&nbsp;&nbsp;</a>
 	<br />
 </div>
 <p>
@@ -681,9 +681,9 @@ ausgeführt wurde.
 
 <div style="margin: 8px 0; padding: 8px; display: block;">
 	<br />
-	<a style="color: white; font-weight: bold; background-color: #66cc66; text-decoration : none; margin-right: 20px; border: 8px solid #66cc66; width: 150px;" href="http://%4%/umbraco/actions/publish.aspx?id=%5%">&nbsp;&nbsp;PUBLISH&nbsp;&nbsp;</a> &nbsp; 
-	<a style="color: white; font-weight: bold; background-color: #5372c3; text-decoration : none; margin-right: 20px; border: 8px solid #5372c3; width: 150px;" href="http://%4%/umbraco/actions/editContent.aspx?id=%5%">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;EDIT&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</a> &nbsp; 
-	<a style="color: white; font-weight: bold; background-color: #ca4a4a; text-decoration : none; margin-right: 20px; border: 8px solid #ca4a4a; width: 150px;" href="http://%4%/umbraco/actions/delete.aspx?id=%5%">&nbsp;&nbsp;&nbsp;&nbsp;DELETE&nbsp;&nbsp;&nbsp;&nbsp;</a>
+	<a style="color: white; font-weight: bold; background-color: #66cc66; text-decoration : none; margin-right: 20px; border: 8px solid #66cc66; width: 150px;" href="http://%4%/umbraco/actions/publish.aspx?id=%5%">&nbsp;&nbsp;VERÖFFENTLICHEN&nbsp;&nbsp;</a> &nbsp; 
+	<a style="color: white; font-weight: bold; background-color: #5372c3; text-decoration : none; margin-right: 20px; border: 8px solid #5372c3; width: 150px;" href="http://%4%/umbraco/actions/editContent.aspx?id=%5%">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;BEARBEITEN&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</a> &nbsp; 
+	<a style="color: white; font-weight: bold; background-color: #ca4a4a; text-decoration : none; margin-right: 20px; border: 8px solid #ca4a4a; width: 150px;" href="http://%4%/umbraco/actions/delete.aspx?id=%5%">&nbsp;&nbsp;&nbsp;&nbsp;LÖSCHEN&nbsp;&nbsp;&nbsp;&nbsp;</a>
 	<br />
 </div>
 
@@ -696,7 +696,7 @@ ausgeführt wurde.
 <area alias="translation">
 	<key alias="pageHasBeenSendToTranslation">Die Seite '%0%' wurde zum Übersetzen gesendet</key>
 	<key alias="sendToTranslate">Die Seite '%0%' zum Übersetzen senden</key>
-	<key alias="noTranslators">Kein User zur Übersetzung gefunden. Bitte erstellen Sie einen Übersetzer bevor Sie Seiten zum Übersetzen senden.</key>
+	<key alias="noTranslators">Kein Benutzer zur Übersetzung gefunden. Bitte erstellen Sie einen Übersetzer bevor Sie Seiten zum Übersetzen senden.</key>
 	<key alias="translator">Übersetzer</key>
 	<key alias="translateTo">Übersetzen in</key>
 	<key alias="mailSubject">[%0%] Übersetzungstask für %1%</key>
@@ -718,13 +718,13 @@ Ihr Umbraco Robot
 	</key>
 </area>
 <area alias="translation" version="3.0">
-    <key alias="pageHasBeenSendToTranslation" version="4.0">The page '%0%' has been send to translation</key>
-    <key alias="sendToTranslate" version="4.0">Send the page '%0%' to translation</key>
-    <key alias="noTranslators" version="4.0">No translator users found. Please create a translator user before you start sending content to translation</key>
-    <key alias="translator" version="4.0">Translator</key>
-    <key alias="translateTo" version="4.0">Translate to</key>
-    <key alias="includeSubpages" version="4.0">Include subpages</key>
-    <key alias="mailSubject" version="3.0">[%0%] Translation task for %1%</key>
+    <key alias="pageHasBeenSendToTranslation" version="4.0">Die Seite '%0%' wurde zum Übersetzen versendet</key>
+    <key alias="sendToTranslate" version="4.0">Sendet die Seite '%0%' zum übersetzen</key>
+    <key alias="noTranslators" version="4.0">Kein Benutzer zur Übersetzung gefunden. Bitte erstellen Sie einen Übersetzer bevor Sie Seiten zum Übersetzen senden.</key>
+    <key alias="translator" version="4.0">Übersetzer</key>
+    <key alias="translateTo" version="4.0">Übersetzen in</key>
+    <key alias="includeSubpages" version="4.0">Beinhaltet Unterseiten</key>
+    <key alias="mailSubject" version="3.0">[%0%] Übersetzungstask für %1%</key>
     <key alias="mailBody" version="3.0">
       Hi %0%
 
@@ -769,7 +769,7 @@ Ihr Umbraco Robot
 	<key alias="packageRepository" version="4.0">Package repository</key>
 	<key alias="packageReadme" version="4.0">Package Readme</key>
 	<key alias="packageOptions" version="4.0">Package Optionen</key>
-	<key alias="viewPackageWebsite" version="4.0">View package website</key>
+	<key alias="viewPackageWebsite" version="4.0">Package-Webseite betrachten/key>
 	<key alias="packageUninstallHeader" version="4.0">Package deinstallieren</key>
 	<key alias="packageUninstallText" version="4.0"><![CDATA[Sie können die Elemente, die Sie jetzt nicht deinstallieren möchten, unten demarkieren. Wenn Sie "Deinstallation bestätigen" klicken werden alle markierten Elemente entfernt.<br /><span style="color: Red; font-weight: bold;">Achtung:</span> alle Dokumente, Medien, etc, die von den zu entfernenden Elementen abhängen, werden nicht mehr funktionieren und können das System instabil machen. Bitte deinstallieren Sie also mit Vorsicht. Falls Sie unsicher sind kontaktieren Sie den Autor des Packages.]]></key>
 	<key alias="packageUninstallConfirm" version="4.0">Deinstallation bestätigen</key>
@@ -782,140 +782,139 @@ Ihr Umbraco Robot
 	<key alias="packageNoUpgrades" version="4.0">Keine Updates verfügbar</key>
 	<key alias="packageUpgradeInstructions" version="4.0">Upgrade Instruktionen</key>
 	<key alias="packageUpgradeDownload" version="4.0">Update vom Repository herunterladen</key>
-	<key alias="chooseLocalPackageText" version="4.0">Wählen Sie ein Package auf Ihrem lokalen Rechner indem Sie auf den Schalter "Datei auswählen" drücken <br /> und  im folgenden Dialog auswählen. Umbraco-Packages besitzen gewöhnlich die Dateiendung ".umb" oder ".zip".</key>
-	<key alias="chooseLocalPackageText" version="4.0"><![CDATA[Choose Package from your machine, by clicking the Browse<br />button and locating the package. umbraco packages usually have a ".umb" or ".zip" extension.]]></key>
+	<key alias="chooseLocalPackageText" version="4.0"><![CDATA[Wählen Sie ein Package auf Ihrem lokalen Rechner indem Sie auf den Schalter "Datei auswählen" drücken <br /> und  im folgenden Dialog auswählen. Umbraco-Packages besitzen gewöhnlich die Dateiendung ".umb" oder ".zip".]]></key>
 </area>
 
 <area alias="installer" version="4.0">
-    <key alias="thankYou">Thank you for choosing umbraco</key>
-    <key alias="welcomeIntro"><![CDATA[This wizard will guide you through the process of configuring <strong>umbraco %0%</strong> for a fresh install or upgrading from version 3.0.
+    <key alias="thankYou">Vielen Dank, dass Sie Umbraco ausgewählt haben!</key>
+    <key alias="welcomeIntro"><![CDATA[Dieser Assistent führt Sie durch den Konfigurationsprozess einer frischen Installation von <strong>umbraco %0%</strong> oder einem Upgrade von Version 3.0.
                                 <br /><br />
-                                Press <strong>"next"</strong> to start the wizard.]]></key>
-    <key alias="greatStart">Get a great start, watch our introduction videos</key>
-    <key alias="watch">Watch</key>
-    <key alias="step1">Step 1/5 Accept license</key>
-    <key alias="licenseText">By clicking the next button (or modifying the umbracoConfigurationStatus in web.config), you accept the license for this software as specified in the box below. Notice that this umbraco distribution consists of two different licenses, the open source MIT license for the framework and the umbraco freeware license that covers the UI.</key>
-    <key alias="step2">Step 2/5: Database configuration</key>
-    <key alias="databaseHeader">Database configuration</key>
-    <key alias="databaseText"><![CDATA[To complete this step, you must know some information regarding your database server ("connection string").<br />
-        Please contact your ISP if necessary.
-        If you're installing on a local machine or server you might need information from your system administrator.]]></key>
-    <key alias="databaseFound">Your database has been found and is identified as</key>
-    <key alias="databaseUpToDate"><![CDATA[Your current database is up-to-date!. Click <strong>next</strong> to continue the configuration wizard]]></key>
+                                Klicken Sie <strong>weiter</strong> um den Assistenten zu starten.]]></key>
+    <key alias="greatStart">Schauen Sie sich für einen tollen Start unsere Einführungsvideos an.</key>
+    <key alias="watch">Anschauen</key>
+    <key alias="step1">Schritt 1/5 Lizenz akzeptieren</key>
+    <key alias="licenseText">Mit dem Klick auf 'weiter' (oder durch Anpassung des umbracoConfigurationStatus in der web.config) stimmen Sie der Lizenz für diese Software zu, so wie im Kasten beschrieben. Bitte beachten Sie, dass diese umbraco-Distribution aus zwei Lizenzen besteht. Einer Open-Source MIT Lizenz für das Framework und einer der umbraco Freeware-Lizenz für die Oberfläche.</key>
+    <key alias="step2">Schritt 2/5: Datenbankkonfiguration</key>
+    <key alias="databaseHeader">Datenbankkonfiguration</key>
+    <key alias="databaseText"><![CDATA[Um diesen Schritt abzuschließen, müssen Sie einige Informationen zur Datenbankverbindung angeben ("connection string").<br />
+        Bitte kontaktieren Sie Ihren ISP für weitere Informationen.
+        Bei Installation auf einer lokalen Maschine benätigen Sie unter Umständen weitere Informationen von ihrem Administrator.]]></key>
+    <key alias="databaseFound">Ihre Datenbank wurde gefunden und identifiziert als</key>
+    <key alias="databaseUpToDate"><![CDATA[Ihre Datenbank ist vorbereitet!. Klicken Sie <strong>"weiter"</strong> um mit der Konfiguration fortzufahren.]]></key>
     <key alias="databaseUpgrade"><![CDATA[
       <p>
-      Press the <strong>upgrade</strong> button to upgrade your database to Umbraco %0%</p>
+      Klicken Sie <strong>update</strong> um Ihre Datenbank auf Umbraco %0% zu aktualisieren.</p>
       <p>
-      Don't worry - no content will be deleted and everything will continue working afterwards!
+      Keine Sorge - Es werden keine Inhalte gelöscht und alles wird weiterhin funktionieren!
       </p>    
       ]]></key>
     <key alias="databaseInstall"><![CDATA[
-      Press the <strong>install</strong> button to install the Umbraco %0% database
+      Klicken Sie <strong>installieren</strong> um die Umbraco %0% Datenbank einzurichten.
     ]]></key>
-    <key alias="databaseNotFound"><![CDATA[<p>Database not found! Please check that the information in the "connection string" of the “web.config” file is correct.</p>
-              <p>To proceed, please edit the "web.config" file (using Visual Studio or your favourite text editor), scroll to the bottom, add the connection string for your database in the key named "umbracoDbDSN" and save the file. </p>
+    <key alias="databaseNotFound"><![CDATA[<p>Datenbank nicht gefunden! Bitte prüfen Sie den "connection string" in der “web.config”-Datei.</p>
+              <p>Um fortzufahren passen Sie bitte die "web.config"-Datei (mit Visual Studio oder einem beliebigen Text-Editor) entsprechend an. Scrollen Sie nach unten, fügen Sie den "connection string" für ihre Datenbank dem Eintrag "umbracoDbDSN" hinzu und Speichern Sie die Datei.</p>
               <p>
-              Click the <strong>retry</strong> button when 
-              done.<br /><a href="http://umbraco.org/redir/installWebConfig" target="_blank">
-			              More information on editing web.config here.</a></p>]]></key>
-    <key alias="databaseInstallDone"><![CDATA[Umbraco %0% has now been copied to your database. Press <strong>Next</strong> to proceed.]]></key>
-    <key alias="databaseUpgradeDone"><![CDATA[Your database has been upgraded to the final version %0%.<br />Press <strong>Next</strong> to 
-      proceed. ]]></key>
-    <key alias="databaseErrorCannotConnect">The installer cannot connect to the database.</key>
-    <key alias="databaseErrorWebConfig">Could not save the web.config file. Please modify the connection string manually.</key>
-    <key alias="Unavailable">Connection to database failed.</key>
-    <key alias="None">Not installed yet.</key>
+              Klicken Sie <strong>Wiederholen</strong> nach der Anpassung.
+		<br /><a href="http://umbraco.org/redir/installWebConfig" target="_blank">
+			              Weitere Informationen zur web.config finden Sie hier.</a></p>]]></key>
+    <key alias="databaseInstallDone"><![CDATA[Umbraco %0% wurde nun in ihre Datenbank kopiert. Drücken Sie <strong>weiter</strong> um fortzufahren.]]></key>
+    <key alias="databaseUpgradeDone"><![CDATA[Ihre Datenbank wurde auf die letzte Version %0% aktualisiert.<br />Drücken Sie <strong>weiter</strong> um 
+      fortzufahren. ]]></key>
+    <key alias="databaseErrorCannotConnect">Der Installer kann sich nicht mit der Datenbank verbinden.</key>
+    <key alias="databaseErrorWebConfig">Die web.config-Datei konnte nicht angepasst werden. Bitte passen Sie den 'connection string' manuell an.</key>
+    <key alias="Unavailable">Verbindung zur Datenbank fehlgeschlagen.</key>
+    <key alias="None">Noch nicht installiert.</key>
     <key alias="Version3">Umbraco Version 3</key>
     <key alias="Version4">Umbraco Version 4</key>
-    <key alias="step3">Step 3/5: Validating File Permissions</key>
+    <key alias="step3">Schritt 3/5: Überprüfung der Dateiberechtigungen</key>
     <key alias="permissionsText">
-      umbraco needs write/modify access to certain directories in order to store files like pictures and PDF's.
-      It also stores temporary data (aka: cache) for enhancing the performance of your website.
+      umbraco benötigt Schreibrechte für verschiedene Verzeichnisse um Dateien wie Bilder oder PDFs speichern zu können.
+      Außerdem werden temporäre Daten (Cache) zur Verbesserung der Website-Performance gespeichert.
     </key>
-    <key alias="permissionsPerfect"><![CDATA[<strong>Your permission settings are perfect!</strong><br /><br />
-              You are ready to run umbraco and install packages!]]></key>
-    <key alias="permissionsAlmostPerfect"><![CDATA[<strong>Your permission settings are almost perfect!</strong><br /><br />
-        You can run umbraco without problems, but you will not be able to install packages which are recommended to take full advantage of umbraco.]]></key>
-    <key alias="permissionsNotReady"><![CDATA[<strong>Your permission settings are not ready for umbraco!</strong>
+    <key alias="permissionsPerfect"><![CDATA[<strong>Ihre Berechtigungs-Einstellungen sind perfekt!</strong><br /><br />
+              Nun ist umbraco fertig eingerichtet und es können Packages installiert werden!]]></key>
+    <key alias="permissionsAlmostPerfect"><![CDATA[<strong>Ihre Berechtigungs-Einstellungen sind fast perfekt!</strong><br /><br />
+        Sie können umbraco ohne Probleme verwenden, werden aber viele Packages nicht installieren können.]]></key>
+    <key alias="permissionsNotReady"><![CDATA[<strong>Ihre Berechtigungs-Einstellungen sind nicht geeignet!</strong>
           <br /><br />
-          In order to run umbraco, you'll need to update your permission settings.]]></key>
-    <key alias="permissionsMaybeAnIssue"><![CDATA[<strong>Your permission settings might be an issue!</strong>
+          Um umbraco zu verwenden müssen Sie Ihre Berechtigungs-Einstellungen anpassen.]]></key>
+    <key alias="permissionsMaybeAnIssue"><![CDATA[<strong>Ihre Berechtigungs-Einstellungen sind vermutlich fehlerhaft!</strong>
       <br/><br />
-      You can run umbraco without problems, but you will not be able to create folders or install packages which are recommended to take full advantage of umbraco.]]></key>
-    <key alias="permissionsHowtoResolve">How to Resolve</key>
-    <key alias="permissionsHowtoResolveText"><![CDATA[Watch our <strong>video tutorial</strong> on setting up folder permissions for umbraco or read the text version.]]></key>
-    <key alias="permissionsHowtoResolveLink">Click here to read the text version</key>
-    <key alias="permissionsSettingUpPermissions">Setting up folder permissions</key>
-    <key alias="permissionsAffectedFolders">Affected files and folders</key>
-    <key alias="permissionsAffectedFoldersText">You need to grant ASP.NET modify permissions to the following files/folders</key>
-    <key alias="permissionsAffectedFoldersMoreInfo">More information on setting up permissions for umbraco here</key>
-    <key alias="permissionsResolveFolderIssues">Resolving folder issue</key>
-    <key alias="permissionsResolveFolderIssuesLink">Follow this link for more information on problems with ASP.NET and creating folders</key>
-    <key alias="step4">Step 4/5: Check umbraco security</key>
+      Sie können umbraco ohne Probleme verwenden, werden aber viele Packages nicht installieren können.]]></key>
+    <key alias="permissionsHowtoResolve">Problemlösung</key>
+    <key alias="permissionsHowtoResolveText"><![CDATA[Schauen Sie sich die <strong>Video-Tutorial</strong> zum Thema Verzeichnisberechtigungen für umbraco an oder lesen Sie die Text-Version.]]></key>
+    <key alias="permissionsHowtoResolveLink">Klicken Sie hier um die Text-Version zu lesen</key>
+    <key alias="permissionsSettingUpPermissions">Verzeichnisberechtigungen anpassen</key>
+    <key alias="permissionsAffectedFolders">Betroffene Verzeichnisse und Dateien</key>
+    <key alias="permissionsAffectedFoldersText">Für die folgenden Dateien und Verzeichnisse müssen ASP.NET Schreibberechtigungen gesetzt werden</key>
+    <key alias="permissionsAffectedFoldersMoreInfo">Weitere Informationen zum Thema Berechtigung für umbraco hier</key>
+    <key alias="permissionsResolveFolderIssues">Verzeichnisprobleme lösen</key>
+    <key alias="permissionsResolveFolderIssuesLink">Folgen Sie diesem Link für weitere Informationen zum Thema ASP.NET und der Erstellung von Verzeichnissen.</key>
+    <key alias="step4">Schritt 4/5: umbraco Sicherheit prüfen</key>
     <key alias="defaultUserText"><![CDATA[
         <p>
-          umbraco creates a default user with a login <strong>('admin')</strong> and password <strong>('default')</strong>. It's <strong>important</strong> that the password is 
-          changed to something unique.
+          umbraco erzeugt einen Standard-Benutzer mit dem Login-Namen <strong>('admin')</strong> und Passwort <strong>('default')</strong>. <strong>WICHTIG:</strong> Das Passwort
+          sollte in ein eigenes geändert werden.
         </p>
         <p>
-          This step will check the default user's password and suggest if it needs to be changed.
+          Dieser Schritt wird das Passwort des Standard-Benutzers prüfen und eventuell notwendige Änderungen vorschlagen.
         </p>
       ]]></key>
-    <key alias="defaultUserPasswordChanged">The password is changed!</key>
-    <key alias="defaultUserDisabled"><![CDATA[<strong>The Default user has been disabled or has no access to umbraco!</strong></p><p>No further actions needs to be taken. Click <b>Next</b> to proceed.]]></key>
-    <key alias="defaultUserPassChanged"><![CDATA[<strong>The Default user's password has been successfully changed since the installation!</strong></p><p>No further actions needs to be taken. Click <strong>Next</strong> to proceed.]]></key>
-    <key alias="defaultUserChangePass"><![CDATA[<strong>The Default users’ password needs to be changed!</strong>]]></key>
-    <key alias="step5">Step 5/5: Umbraco is ready to get you started</key>
-    <key alias="runwayHeader">You’ve just set up a clean Umbraco platform. What do you want to do next?</key>
-    <key alias="runwaySimpleSite">I want to start with a simple website</key>
-    <key alias="runwayFromScratch">I want to start from scratch</key>
+    <key alias="defaultUserPasswordChanged">Das Password wurde geändert!</key>
+    <key alias="defaultUserDisabled"><![CDATA[<strong>Der Standard-Benutzer wurde deaktiviert oder hat keinen Zugriff auf umbraco!</strong></p><p>Keine weiteren Aktionen sind notwendig. Klicken Sie <b>weiter</b> um fortzufahren.]]></key>
+    <key alias="defaultUserPassChanged"><![CDATA[<strong>Das Passwort des Standard-Nutzers wurde erfolgreich geändert seit der der Installation!</strong></p><p>Keine weiteren Aktionen sind notwendig. Klicken Sie <b>weiter</b> um fortzufahren.]]></key>
+    <key alias="defaultUserChangePass"><![CDATA[<strong>Das Passwort des Standard-Nutzers muss geändert werden!</strong>]]></key>
+    <key alias="step5">Schritt 5/5: Umbraco kann gestartet werden</key>
+    <key alias="runwayHeader">Sie haben gerade eine saubere umbraco plattform installiert. Was möchten Sie als nächstes tun?</key>
+    <key alias="runwaySimpleSite">Ich möchte mit einer einfache Website starten</key>
+    <key alias="runwayFromScratch">Ich möchte von Null an starten</key>
     <key alias="runwaySimpleSiteText"><![CDATA[
       <p>
-      "Runway" is a simple website providing some basic document types and templates. The installer can set up Runway for you automatically, 
-        but you can easily edit, extend or remove it. It’s not necessary and you can perfectly use Umbraco without it. However, 
-        Runway offers an easy foundation based on best practices to get you started faster than ever.
-        If you choose to install Runway, you can optionally select basic building blocks called Runway Modules to enhance your Runway pages.
+      "Runway" ist eine einfache Website mit einfachen Dokumententypen und Vorlagen. Der Installer kann Runway automatisch einrichten, 
+        aber es kann einfach verändert, erweitert oder entfernt werden. Es ist nicht zwingend notwendig und umbraco kann auch ohne Runway verwendet werden. 
+        Runway bietet eine einfache Basis zum schnellen Start mit umbraco.
+        Wenn Sie sich für Runway entscheiden, können Sie optional Blöcke nutzen, die "Runway Modules" und Ihre Runway-Seite erweitern.
         </p>
         <small>
-        <em>Included with Runway:</em> Home page, Getting Started page, Installing Modules page.<br />
-        <em>Optional Modules:</em> Top Navigation, Sitemap, Contact, Gallery.
+        <em>Runway umfasst:</em> Home page, Getting Started page, Installing Modules page.<br />
+        <em>Optionale Module:</em> Top Navigation, Sitemap, Contact, Gallery.
         </small>
       ]]></key>
     <key alias="runwayFromScratchText"><![CDATA[
-        Your website is completely empty at the moment, so that’s perfect if you want to start from scratch and create your own document types and templates. 
-        (<a href="http://umbraco.tv/documentation/videos/for-site-builders/foundation/document-types">learn how</a>)
-        You can still choose to install Runway later on. Please go to the Developer section and choose Packages.
+        Ihre Website ist zur Zeit komplett leer und kann verwendet werden um von Null zu starten und Ihre eigenen Dokumententypen und Vorlagen zu erstellen. 
+        (<a href="http://umbraco.tv/documentation/videos/for-site-builders/foundation/document-types">So geht's</a>)
+        Sie können Runway auch jederzeit später installieren. Verwenden Sie hierzu den Punkt "Packages" im "Developer" Bereich.
       ]]></key>
-    <key alias="runwayWhatIsRunway">What is Runway</key>
-    <key alias="runwayInstalled">Runway is installed</key>
+    <key alias="runwayWhatIsRunway">Was ist Runway?</key>
+    <key alias="runwayInstalled">Runway wurde installiert</key>
     <key alias="runwayInstalledText"><![CDATA[
-      You have the foundation in place. Select what modules you wish to install on top of it.<br />
-      This is our list of recommended modules, check off the ones you would like to install, or view the <a href="#" onclick="toggleModules(); return false;" id="toggleModuleList">full list of modules</a>
+      Die Basis ist eingerichtet. Wählen Sie die Module aus, die Sie nun installieren möchten.<br />
+      Dies sind unsere empfohlenen Module. Schauen Sie sich die an, die Sie installieren möchten oder Sie sich die <a href="#" onclick="toggleModules(); return false;" id="toggleModuleList">komplette Liste der Module an.</a>
       ]]></key>
-    <key alias="runwayOnlyProUsers">Only recommended for experienced users</key>
-    <key alias="theEndHeader">Umbraco %0% is installed and ready for use</key>
-    <key alias="theEndInstallFailed"><![CDATA[To finish the installation, you'll need to 
-        manually edit the <strong>/web.config file</strong> and update the AppSetting key <strong>umbracoConfigurationStatus</strong> in the bottom to the value of <strong>'%0%'</strong>.]]></key>
-    <key alias="theEndInstallSuccess"><![CDATA[You can get <strong>started instantly</strong> by clicking the "Launch Umbraco" button below. <br />If you are <strong>new to umbraco</strong>, 
-you can find plenty of resources on our getting started pages.]]></key>
-    <key alias="theEndBrowseSite"><![CDATA[<h3>Browse your new site</h3>
-You installed Runway, so why not see how your new website looks.]]></key>
-    <key alias="theEndFurtherHelp"><![CDATA[<h3>Further help and information</h3>
-Get help from our award winning community, browse the documentation or watch some free videos on how to build a simple site, how to use packages and a quick guide to the umbraco terminology]]></key>
-    <key alias="theEndOpenUmbraco"><![CDATA[<h3>Launch Umbraco</h3>
-To manage your website, simply open the umbraco back office and start adding content, updating the templates and stylesheets or add new functionality]]></key>
+    <key alias="runwayOnlyProUsers">Nur für erfahrene Benutzer empfohlen</key>
+    <key alias="theEndHeader">Umbraco %0% wurde installiert und kann verwendet werden</key>
+    <key alias="theEndInstallFailed"><![CDATA[Um die Installation abzuschließen müssen müssen Sie  
+        die <strong>/web.config-Datei</strong> von Hand anpassen und den AppSetting-Schlüssel <strong>umbracoConfigurationStatus</strong> auf den Wert <strong>'%0%'</strong> ändern.]]></key>
+    <key alias="theEndInstallSuccess"><![CDATA[Sie können <strong>sofort starten</strong>, in dem Sie auf "Umbraco starten" klicken. <br />Wenn Sie <strong>umbraco zum ersten mal</strong>, 
+verwenden können Sie eine Menge von Informationen auf Ihrer "getting started"-Seite.]]></key>
+    <key alias="theEndBrowseSite"><![CDATA[<h3>Zur neuen Seite</h3>
+Sie haben Runway installiert, schauen Sie sich doch mal auf Ihrer Website um.]]></key>
+    <key alias="theEndFurtherHelp"><![CDATA[<h3>Weitere Hilfe und Informationen</h3>
+Hilfe von unserer preisgekrönten Community, Dokumentation und kostenfreie Videos, wie Sie eine einfache Website erstellen, ein Packages nutzen und eine schnelle Einführung in alle Umbraco-Begriffe]]></key>
+    <key alias="theEndOpenUmbraco"><![CDATA[<h3>Umbraco starten</h3>
+Um Ihre Website zu verwalten öffnen Sie einfach den Administrationsbereich beginnen Sie damit Inhalte hinzuzufügen, Vorlagen und Stylesheets zu bearbeiten oder neue Funktionen hinzuzufügen]]></key>
   </area>
   <area alias="relatedlinks">
-    <key alias="modeUp"><![CDATA[Move Up]]></key>
-    <key alias="modeDown"><![CDATA[Move Down]]></key>
-    <key alias="removeLink"><![CDATA[Remove link]]></key>
-    <key alias="newWindow"><![CDATA[Open in new window]]></key>
-    <key alias="addInternal"><![CDATA[Add internal link]]></key>
-    <key alias="addExternal"><![CDATA[Add external link]]></key>
-    <key alias="caption"><![CDATA[Caption]]></key>
+    <key alias="modeUp"><![CDATA[Hoch]]></key>
+    <key alias="modeDown"><![CDATA[Runter]]></key>
+    <key alias="removeLink"><![CDATA[Link entfernen]]></key>
+    <key alias="newWindow"><![CDATA[In neuem Fenster öffnen]]></key>
+    <key alias="addInternal"><![CDATA[Neuer interner Link]]></key>
+    <key alias="addExternal"><![CDATA[Neuer exerner Link]]></key>
+    <key alias="caption"><![CDATA[Beschriftung]]></key>
     <key alias="linkurl"><![CDATA[URL]]></key>
-    <key alias="internalPage"><![CDATA[Internal page]]></key>
-    <key alias="addlink"><![CDATA[Add]]></key>
+    <key alias="internalPage"><![CDATA[Interne Seite]]></key>
+    <key alias="addlink"><![CDATA[Neu]]></key>
   </area>
   <key alias="transferCourierRevision">Transfer</key>
   <key alias="transferCourierItem">Transfer</key>
