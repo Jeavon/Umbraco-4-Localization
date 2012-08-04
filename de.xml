@@ -359,7 +359,7 @@
 	<key alias="update">Aktualisieren</key>
 	<key alias="notify">Benachrichtigungen</key>
 	<key alias="logout">Abmelden</key>
-	<key alias="republish">Dokument erneut veröffentlichen</key>
+	<key alias="republish">Erneut veröffentlichen</key>
 	<key alias="assignDomain">Hostnamen verwalten</key>
 	<key alias="disable" version="2.1">Deaktivieren</key>
 	<key alias="auditTrail" version="2.1">Protokoll</key>
