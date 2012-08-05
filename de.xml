@@ -742,7 +742,7 @@ Ihr freundlicher Umbraco-Robot
 	<key alias="packageNoItemsText" version="4.0"><![CDATA[Die Paket-Datei enthält keine Elemente die deinstalliert werden können.<br/><br/>Sie können das Paket ohne Gefahr deinstallieren indem Sie "Paket deinstallieren" anklicken.]]></key>
 	<key alias="packageUpgradeHeader" version="4.0">Paket-Update</key>
 	<key alias="packageUpgradeText" version="4.0"> Es ist ein Update für dieses Paket verfügbar. Sie können es direkt vom Umbraco-Paket-Repository herunterladen.</key>
-	<key alias="packageNoUpgrades" version="4.0">Keine paket-Updates verfügbar</key>
+	<key alias="packageNoUpgrades" version="4.0">Keine Updates für das Paket verfügbar</key>
 	<key alias="packageUpgradeInstructions" version="4.0">Hinweise für die Durchführung des Updates</key>
 	<key alias="packageUpgradeDownload" version="4.0">Update vom Paket-Repository herunterladen</key>
 	<key alias="chooseLocalPackageText" version="4.0"><![CDATA[Wählen Sie ein Paket auf Ihrem lokalen Computer über "Datei auswählen" aus. <br />Umbraco-Pakete besitzen üblicherweise die Dateiendungen ".umb" oder ".zip".]]></key>
