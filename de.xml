@@ -318,12 +318,12 @@
 
 <area alias="settings">
 	<key alias="nodetype">Elementtyp</key>
-	<key alias="tab">Reiter</key>
-	<key alias="tabs">Reiter</key>
-	<key alias="tabname">Reiterbeschriftung</key>
+	<key alias="tab">Registerkarte</key>
+	<key alias="tabs">Registerkarten</key>
+	<key alias="tabname">Registerkartenbeschriftung</key>
 	<key alias="objecttype">Typ</key>
 	<key alias="defaulttemplate">Standardvorlage</key>
-	<key alias="newtabname">Beschriftung des neuen Reiters</key>
+	<key alias="newtabname">Beschriftung der neuen Registerkarte</key>
 	<key alias="stylesheet" version="2.1">Stylesheet</key>
 	<key alias="stylesheet editor egenskab">Stylesheet-Eigenschaft</key>
 	<key alias="dictionary editor egenskab" version="2.1">Wörterbuch-Schlüsselwort</key>
@@ -418,9 +418,9 @@
 	<key alias="fileSavedHeader">Datei gespeichert</key>
 	<key alias="fileSavedText">Datei erfolgreich gespeichert</key>
 	<key alias="contentTypeSavedHeader">Dokumenttyp gespeichert</key>
-	<key alias="contentTypeTabCreated">Reiter erstellt</key>
-	<key alias="contentTypeTabDeleted">Reiter gelöscht</key>
-	<key alias="contentTypeTabDeletedText">Reiter %0% gelöscht</key>
+	<key alias="contentTypeTabCreated">Registerkarte erstellt</key>
+	<key alias="contentTypeTabDeleted">Registerkarte gelöscht</key>
+	<key alias="contentTypeTabDeletedText">Registerkarte %0% gelöscht</key>
 	<key alias="contentTypePropertyTypeCreated">Eigenschaft erstellt</key>
 	<key alias="contentTypeDublicatePropertyType">Eigenschaft existiert bereits</key>
 	<key alias="contentTypePropertyTypeCreatedText">Name: %0% <br /> Datentyp: %1%</key>
@@ -525,11 +525,11 @@
 </area>
 
 <area alias="editcontenttype">
-	<key alias="newtab">Neuer Reiter</key>
+	<key alias="newtab">Neue Registerkarte</key>
 	<key alias="create">Erstellen</key>
 	<key alias="allowedchildnodetypes">Dokumenttypen, die unterhalb dieses Typs erlaubt sind</key>
-	<key alias="tab">Reiter</key>
-	<key alias="deletetab">Reiter löschen</key>
+	<key alias="tab">Registerkarte</key>
+	<key alias="deletetab">Registerkarte löschen</key>
 	<key alias="description">Beschreibung</key>
 	<key alias="thumbnail">Illustration</key>
 </area>
@@ -607,10 +607,10 @@
 <area alias="errorHandling" version="2.1">
 	<key alias="errorHeader" version="2.1">Bitte prüfen und korrigieren:</key>
 	<key alias="errorHeaderWithoutTab" version="2.1">Bitte prüfen und korrigieren:</key>
-	<key alias="errorMandatory" version="2.1">'%0%' (im Reiter '%1%') ist ein Pflichtfeld</key>
+	<key alias="errorMandatory" version="2.1">'%0%' (in Registerkarte '%1%') ist ein Pflichtfeld</key>
 	<key alias="errorMandatoryWithoutTab" version="2.1">'%0%' ist ein Pflichtfeld</key>
 	<key alias="errorExistsWithoutTab" version="2.1">'%0%' ist bereits vorhanden</key>
-	<key alias="errorRegExp" version="2.1">'%0%' (im Reiter '%1%') hat ein falsches Format</key>
+	<key alias="errorRegExp" version="2.1">'%0%' (in Registerkarte '%1%') hat ein falsches Format</key>
 	<key alias="errorRegExpWithoutTab" version="2.1">'%0%' hat ein falsches Format</key>
 	<key alias="errorIntegerWithoutTab" version="4.0">'%0%' muss eine Zahl sein</key>
 	<key alias="errorButDataWasSaved" version="4.0">Ihre Daten wurden gespeichert. Bevor Sie diese Seite jedoch veröffentlichen können, müssen Sie die folgenden Korrekturen vornehmen:</key>
