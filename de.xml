@@ -530,6 +530,8 @@
 	<key alias="allowedchildnodetypes">Dokumenttypen, die unterhalb dieses Typs erlaubt sind</key>
 	<key alias="tab">Reiter</key>
 	<key alias="deletetab">Reiter löschen</key>
+	<key alias="description">Beschreibung</key>
+	<key alias="thumbnail">Illustration</key>
 </area>
 
 <area alias="editdatatype">
