@@ -257,7 +257,7 @@
 	<key alias="languages" version="2.1">Sprachen</key>
 	<key alias="mediaTypes" version="2.1">Medientypen</key>
 	<key alias="nodeTypes" version="2.1">Dokumenttypen</key>
-	<key alias="cacheBrowser" version="2.1">Zwischenspeicheranzeige</key>
+	<key alias="cacheBrowser" version="2.1">Zwischenspeicher</key>
 	<key alias="datatype" version="2.1">Datentypen</key>
 	<key alias="macros" version="2.1">Makros</key>
 	<key alias="xslt" version="2.1">XSLT-Dateien</key>
