@@ -678,7 +678,7 @@
 	<key alias="step1"><![CDATA[Steg 1/5 Acceptera licensavtalet]]></key>
 	<key alias="step2"><![CDATA[Steg 2/5: Databaskonfiguration]]></key>
 	<key alias="step3"><![CDATA[Steg 3/5: Bekräftar filrättigheter]]></key>
-	<key alias="step4"><![CDATA[Step 4/5: Umbraco säkerhetskontroll]]></key>
+	<key alias="step4"><![CDATA[Steg 4/5: Umbraco säkerhetskontroll]]></key>
 	<key alias="step5"><![CDATA[Steg 5/5: Umbraco är redo att ge dig en flygande start]]></key>
 	<key alias="thankYou"><![CDATA[Tack för att du valde umbraco]]></key>
 	<key alias="Version3"><![CDATA[Umbraco Version 3]]></key>
