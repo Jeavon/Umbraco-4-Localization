@@ -13,8 +13,8 @@ Also, remember to update your fork regularly as we receive a lot of partials tra
 
 All contributors will be awarded the "Core Contributor"-badge on their [our.umbraco.org](http://our.umbraco.org/wiki/about/core-contributor "Umbraco Community Forum") profile.
 
-======================
 Language updates pending after 4.9.0 release
+======================
 
 The following two keys has been removed:
 <key alias="exportDocumentTypeAsCode">Export to .NET</key>
