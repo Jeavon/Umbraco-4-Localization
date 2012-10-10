@@ -87,7 +87,7 @@
     <key alias="itemChanged">该项发布之后有更改</key>
     <key alias="itemNotPublished">该项没有发布</key>
     <key alias="lastPublished">最近发布</key>
-    <key alias="mediaLinks">附件链接地址</key>
+    <key alias="mediaLinks">媒体链接地址</key>
     <key alias="mediatype">媒体类型</key>
     <key alias="membergroup">会员组</key>
     <key alias="memberrole">角色</key>
