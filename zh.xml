@@ -15,8 +15,6 @@
     <key alias="disable">禁用</key>
     <key alias="emptyTrashcan">清空回收站</key>
     <key alias="exportDocumentType">导出文档类型</key>
-    <key alias="exportDocumentTypeAsCode">导出到.NET</key>
-    <key alias="exportDocumentTypeAsCode-Full">导出到.NET</key>
     <key alias="importDocumentType">导入文档类型</key>
     <key alias="importPackage">导入扩展包</key>
     <key alias="liveEdit">实时编辑模式</key>
@@ -89,6 +87,7 @@
     <key alias="itemChanged">该项发布之后有更改</key>
     <key alias="itemNotPublished">该项没有发布</key>
     <key alias="lastPublished">最近发布</key>
+    <key alias="mediaLinks">附件链接地址</key>
     <key alias="mediatype">媒体类型</key>
     <key alias="membergroup">会员组</key>
     <key alias="memberrole">角色</key>
@@ -746,6 +745,7 @@
     <key alias="chooseField">选取字段</key>
     <key alias="convertLineBreaks">转换换行符</key>
     <key alias="convertLineBreaksHelp">将换行符转化为&amp;lt;br&amp;gt;</key>
+    <key alias="customFields">自定义字段</key>
     <key alias="dateOnly">是，仅日期</key>
     <key alias="encoding">REMOVE ME: 编码</key>
     <key alias="formatAsDate">格式化时间</key>
@@ -760,6 +760,7 @@
     <key alias="recursive">递归</key>
     <key alias="removeParagraph">移除段落符号</key>
     <key alias="removeParagraphHelp">将移除&amp;lt;P&amp;gt;标签</key>
+    <key alias="standardFields">标准字段</key>
     <key alias="uppercase">大写</key>
     <key alias="urlEncode">URL编码</key>
     <key alias="urlEncodeHelp">将格式化URL中的特殊字符</key>
