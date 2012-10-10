@@ -12,3 +12,17 @@ Please note that you don't *have* to submit a complete translation. We will acce
 Also, remember to update your fork regularly as we receive a lot of partials translations.
 
 All contributors will be awarded the "Core Contributor"-badge on their [our.umbraco.org](http://our.umbraco.org/wiki/about/core-contributor "Umbraco Community Forum") profile.
+
+Language updates pending after 4.9.0 release
+======================
+
+The following two keys has been removed:
+key alias="exportDocumentTypeAsCode" -> Export to .NET
+key alias="exportDocumentTypeAsCode-Full" -> Export to .NET
+
+The following keys has been added to the 'templateEditor' area:
+key alias="customFields" -> Custom Fields
+key alias="standardFields" -> Standard Fields
+
+The following key has been added to the 'content' area:
+key alias="mediaLinks" -> Link to media item(s)
