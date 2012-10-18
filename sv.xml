@@ -15,8 +15,6 @@
     <key alias="disable">Avaktivera</key>
     <key alias="emptyTrashcan">Töm papperskorgen</key>
     <key alias="exportDocumentType">Exportera dokumenttyp</key>
-    <key alias="exportDocumentTypeAsCode">Exportera till .NET</key>
-    <key alias="exportDocumentTypeAsCode-Full">Exportera till .NET</key>
     <key alias="importDocumentType">Importera dokumenttyp</key>
     <key alias="importPackage">Importera paket</key>
     <key alias="liveEdit">Redigera i Canvas</key>
@@ -26,13 +24,13 @@
     <key alias="protect">Lösenordsskydd</key>
     <key alias="publish">Publicera</key>
     <key alias="refreshNode">Ladda om noder</key>
-    <key alias="republish">Publicera om hela webbplatsen</key>
+    <key alias="republish">Publicera hela webbplatsen</key>
     <key alias="rights">Rättigheter</key>
-    <key alias="rollback">Återgå till senast sparade version</key>
-    <key alias="sendtopublish">Vidarebefordra för publicering</key>
-    <key alias="sendToTranslate">Vidarebefordra för översättning</key>
+    <key alias="rollback">Ångra ändringar</key>
+    <key alias="sendtopublish">Skicka för publicering</key>
+    <key alias="sendToTranslate">Skicka för översättning</key>
     <key alias="sort">Sortera</key>
-    <key alias="toPublish">Vidarebefordra för publicering</key>
+    <key alias="toPublish">Skicka för publicering</key>
     <key alias="translate">Översätt</key>
     <key alias="update">Uppdatera</key>
   </area>
@@ -90,6 +88,7 @@
     <key alias="itemNotPublished">Detta objekt är inte publicerat</key>
     <key alias="lastPublished">Senast publicerat</key>
     <key alias="mediatype">Mediatyp</key>
+	<key alias="mediaLinks">Länk till medieobjekt</key>
     <key alias="membergroup">Medlemsgrupp</key>
     <key alias="memberrole">Roll</key>
     <key alias="membertype">Medlemstyp</key>
@@ -617,6 +616,7 @@
     <key alias="chooseField">Välj fält</key>
     <key alias="convertLineBreaks">Konvertera radbrytningar</key>
     <key alias="convertLineBreaksHelp">Byter radbrytningar mot html-taggen &amp;lt;br&amp;gt;</key>
+	<key alias="customFields">Anpassade fält</key>
     <key alias="dateOnly">Ja, endast datum</key>
     <key alias="formatAsDate">Formatera som datum</key>
     <key alias="htmlEncode">HTML-omkodning</key>
@@ -630,6 +630,7 @@
     <key alias="recursive">Rekursiv</key>
     <key alias="removeParagraph">Avlägsna stycke-taggar</key>
     <key alias="removeParagraphHelp">Kommer att avlägsna alla &amp;lt;P&amp;gt; i början och slutet av texten</key>
+	<key alias="standardFields">Standardfält</key>
     <key alias="uppercase">Versaler</key>
     <key alias="urlEncode">URL-koda</key>
     <key alias="urlEncodeHelp">Om fältets innehåll skall sändas till en url, skall detta slås på så att specialtecken kodas</key>
