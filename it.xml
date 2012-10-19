@@ -100,7 +100,7 @@
     <key alias="publish">Pubblicato</key>
     <key alias="publishStatus">Stato della pubblicazione</key>
     <key alias="releaseDate">Pubblicato il</key>
-    <key alias="removeDate">Rimosso il</key>
+    <key alias="removeDate">Rimuovi data</key>
     <key alias="sortDone">Ordinamento dei nodi aggiornato</key>
     <key alias="sortHelp"><![CDATA[Per ordinare i nodi, è sufficiente trascinare i nodi o fare clic su una delle intestazioni di colonna. È possibile selezionare più nodi tenendo premuto il tasto "shift" o "control" durante la selezione]]></key>
     <key alias="statistics">Statistiche</key>
