@@ -632,7 +632,7 @@ Per gestire il tuo sito web, è sufficiente aprire il back office di Umbraco e i
     <key alias="dataTypeSaved">Tipo di dato salvato</key>
     <key alias="dictionaryItemSaved"><![CDATA[Elemento del dizionario salvato]]></key>
     <key alias="editContentPublishedFailedByParent"><![CDATA[Pubblicazione fallita perchè la pagina padre non è stata pubblicata]]></key>
-    <key alias="editContentPublishedHeader"><![CDATA[Contentuto pubblicato]]></key>
+    <key alias="editContentPublishedHeader"><![CDATA[Contenuto pubblicato]]></key>
     <key alias="editContentPublishedText"><![CDATA[e visibile nel sito web]]></key>
     <key alias="editContentSavedHeader"><![CDATA[Contenuto salvato]]></key>
     <key alias="editContentSavedText"><![CDATA[Ricorda di pubblicare per rendere i cambiamenti visibili]]></key>
