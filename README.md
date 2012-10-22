@@ -16,13 +16,26 @@ All contributors will be awarded the "Core Contributor"-badge on their [our.umbr
 Language updates pending after 4.9.0 release
 ======================
 
-The following two keys has been removed:
-key alias="exportDocumentTypeAsCode" -> Export to .NET
-key alias="exportDocumentTypeAsCode-Full" -> Export to .NET
+**The following keys has been removed:**
 
-The following keys has been added to the 'templateEditor' area:
-key alias="customFields" -> Custom Fields
-key alias="standardFields" -> Standard Fields
+*key alias="exportDocumentTypeAsCode" -> Export to .NET*
 
-The following key has been added to the 'content' area:
-key alias="mediaLinks" -> Link to media item(s)
+*key alias="exportDocumentTypeAsCode-Full" -> Export to .NET*
+
+**The following keys has been added to the 'templateEditor' area:**
+
+*key alias="customFields" -> Custom Fields*
+
+*key alias="standardFields" -> Standard Fields*
+
+
+**The following key has been added to the 'content' area:**
+
+*key alias="mediaLinks" -> Link to media item(s)*
+
+
+**The following key has been added to the 'user' area:**
+
+*key alias="passwordCurrent" -> Current password*
+
+*key alias="passwordInvalid" -> Invalid current password*
