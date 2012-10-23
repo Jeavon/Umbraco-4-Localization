@@ -88,14 +88,15 @@
     <key alias="expireDate">Attivo fino al</key>
     <key alias="itemChanged"><![CDATA[Questo elemento è stato modificato dopo la pubblicazione]]></key>
     <key alias="itemNotPublished"><![CDATA[Questo elemento non è stato pubblicato]]></key>
-     <key alias="lastPublished">Ultima pubblicazione</key>
+    <key alias="lastPublished">Ultima pubblicazione</key>
+    <key alias="mediaLinks">Link ai media</key>
     <key alias="mediatype">Tipo di media</key>
     <key alias="membergroup">Gruppo di membri</key>
     <key alias="memberrole">Ruolo</key>
-     <key alias="membertype">Tipologia Membro</key>
+    <key alias="membertype">Tipologia Membro</key>
     <key alias="noDate"><![CDATA[La data non è stata selezionata]]></key>
     <key alias="nodeName">Titolo della Pagina</key>
-     <key alias="otherElements"><![CDATA[Proprietà]]></key>
+    <key alias="otherElements"><![CDATA[Proprietà]]></key>
     <key alias="parentNotPublished"><![CDATA[Questo documento è pubblicato ma non è visibile perchè il padre '%0%' non è pubblicato]]></key>
     <key alias="publish">Pubblicato</key>
     <key alias="publishStatus">Stato della pubblicazione</key>
@@ -689,6 +690,7 @@ Per gestire il tuo sito web, è sufficiente aprire il back office di Umbraco e i
     <key alias="chooseField">Scegli il campo</key>
     <key alias="convertLineBreaks">Converte le interruzioni di linea</key>
     <key alias="convertLineBreaksHelp"><![CDATA[Copia le interruzioni di linea  con html-tag &lt;br&gt;]]></key>
+    <key alias="customFields">Campi Personalizzati</key>
     <key alias="dateOnly"><![CDATA[Si, solo Data]]></key>
     <key alias="formatAsDate"><![CDATA[In formato data]]></key>
     <key alias="htmlEncode"><![CDATA[Codifica HTML]]></key>
@@ -702,6 +704,7 @@ Per gestire il tuo sito web, è sufficiente aprire il back office di Umbraco e i
     <key alias="recursive">Ricorsivo</key>
     <key alias="removeParagraph"><![CDATA[Rimuovi i tag paragrafo]]></key>
     <key alias="removeParagraphHelp"><![CDATA[Rimuoverà &lt;P&gt; all'inizio e alla fine del testo]]></key>
+    <key alias="standardFields">Campi Standard</key>
     <key alias="uppercase">Maiuscolo</key>
     <key alias="urlEncode"><![CDATA[Codifica URL]]></key>
     <key alias="urlEncodeHelp"><![CDATA[Andrà a sostituire i caratteri speciali con il loro equivalente negli url.]]></key>
@@ -813,7 +816,9 @@ Per gestire il tuo sito web, è sufficiente aprire il back office di Umbraco e i
     <key alias="password">Password</key>
     <key alias="passwordChanged"><![CDATA[La tua password è stata cambiata!]]></key>
     <key alias="passwordConfirm"><![CDATA[Si prega di confermare la nuova password]]></key>
+    <key alias="passwordCurrent">Password attuale</key>
     <key alias="passwordEnterNew"><![CDATA[Inserisci la tua nuova password]]></key>
+    <key alias="passwordInvalid"><![CDATA[La password corrente non è valida]]></key>
     <key alias="passwordIsBlank"><![CDATA[La nuova password non può essere vuota!]]></key>
     <key alias="passwordIsDifferent"><![CDATA[C'era una differenza tra la nuova password e la conferma della password. Riprova!]]></key>
     <key alias="passwordMismatch"><![CDATA[La password di conferma non corrisponde alla nuova password!]]></key>
