@@ -1,10 +1,10 @@
 tinyMCE.addI18n('en.embed_dlg', {
-    title: 'Embed third party media',
-    general: 'General',
-    url: 'Url:',
-    size: 'Size:',
-    constrain_proportions: 'Constrain',
-    preview: 'Preview',
-    source: 'Source'
+    title: '嵌入第三方媒体',
+    general: '普通',
+    url: '链接：',
+    size: '尺寸：',
+    constrain_proportions: '约束比例',
+    preview: '预览',
+    source: '源'
 
 });
