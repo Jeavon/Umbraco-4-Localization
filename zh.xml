@@ -75,7 +75,7 @@
   </area>
   <area alias="content">
     <key alias="about">关于本页</key>
-    <key alias="alias">替代链接</key>
+    <key alias="alias">别名</key>
     <key alias="alternativeTextHelp">（图片的替代文本）</key>
     <key alias="alternativeUrls">替代链接</key>
     <key alias="clickToEdit">点击编辑</key>
