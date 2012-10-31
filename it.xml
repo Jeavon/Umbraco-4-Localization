@@ -15,8 +15,6 @@
     <key alias="disable">Disabilita</key>
     <key alias="emptyTrashcan">Svuota il cestino</key>
     <key alias="exportDocumentType">Esporta il tipo di documento</key>
-    <key alias="exportDocumentTypeAsCode">Esporta in .NET</key>
-    <key alias="exportDocumentTypeAsCode-Full">Esporta in .NET</key>
     <key alias="importDocumentType">Importa il tipo di documento</key>
     <key alias="importPackage">Importa il pacchetto</key>
     <key alias="liveEdit">Modifica in Area di Lavoro</key>
