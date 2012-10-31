@@ -39,3 +39,7 @@ Language updates pending after 4.9.0 release
 *key alias="passwordCurrent" -> Current password*
 
 *key alias="passwordInvalid" -> Invalid current password*
+
+**The following key has been added to the 'speechBubbles' area:**
+
+*key alias="editUserTypeSaved" -> User type saved*
