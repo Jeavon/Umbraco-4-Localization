@@ -43,3 +43,7 @@ Language updates pending after 4.9.0 release
 **The following key has been added to the 'speechBubbles' area:**
 
 *key alias="editUserTypeSaved" -> User type saved*
+
+**The following key has been added to the 'moveOrCopy' area:**
+
+*key alias="relateToOriginal" -> Relate copied items to original*
