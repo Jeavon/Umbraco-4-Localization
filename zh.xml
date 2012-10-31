@@ -840,7 +840,9 @@
     <key alias="password">密码</key>
     <key alias="passwordChanged">您的密码已更改！</key>
     <key alias="passwordConfirm">重输密码</key>
+    <key alias="passwordCurrent">当前密码</key>
     <key alias="passwordEnterNew">输入新密码</key>
+    <key alias="passwordInvalid">密码错误</key>
     <key alias="passwordIsBlank">新密码不能为空！</key>
     <key alias="passwordIsDifferent">新密码和重输入的密码不一致，请重试！</key>
     <key alias="passwordMismatch">重输的密码和原密码不一致！</key>
