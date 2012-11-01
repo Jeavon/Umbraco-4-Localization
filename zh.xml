@@ -475,6 +475,7 @@
     <key alias="notAllowedByContentType">类型不符不允许选择</key>
     <key alias="notAllowedByPath">该项不能移到其子项</key>
     <key alias="notValid">您在子项的权限不够，不允许该操作。</key>
+    <key alias="relateToOriginal">复本和原本建立关联</key>
   </area>
   <area alias="notifications">
     <key alias="editNotifications">为 %0% 编写通知</key>
@@ -672,6 +673,7 @@
     <key alias="editTemplateSaved">模板已保存</key>
     <key alias="editUserError">保存用户出错（请查看日志）</key>
     <key alias="editUserSaved">用户已保存</key>
+    <key alias="editUserTypeSaved">用户类型已保存</key>
     <key alias="fileErrorHeader">文件未保存</key>
     <key alias="fileErrorText">文件无法保存，请检查权限。</key>
     <key alias="fileSavedHeader">文件保存</key>
