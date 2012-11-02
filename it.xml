@@ -443,6 +443,7 @@ Per gestire il tuo sito web, è sufficiente aprire il back office di Umbraco e i
     <key alias="notAllowedByContentType"><![CDATA[Non è possibile associare questo tipo di nodo sotto il nodo selezionato.]]></key>
     <key alias="notAllowedByPath"><![CDATA[Il nodo corrente non può essere spostato ad un'altra sua sottopagina]]></key>
     <key alias="notValid"><![CDATA[Quest'azione non è consentita dato che non hai i permessi su uno o più documenti figlio.]]></key>
+    <key alias="relateToOriginal"><![CDATA[Collega gli elementi copiati all'originale]]></key>
   </area>
   <area alias="notifications">
     <key alias="editNotifications"><![CDATA[Modifica la tua notifica per %0%]]></key>
