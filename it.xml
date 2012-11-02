@@ -643,6 +643,7 @@ Per gestire il tuo sito web, è sufficiente aprire il back office di Umbraco e i
     <key alias="editTemplateSaved"><![CDATA[Template salvato]]></key>
     <key alias="editUserError"><![CDATA[Errore durante il salvataggio dell'utente (verifica il log)]]></key>
     <key alias="editUserSaved"><![CDATA[Utente salvato]]></key>
+    <key alias="editUserTypeSaved">Tipo utente salvato</key>
     <key alias="fileErrorHeader"><![CDATA[File non salvato]]></key>
     <key alias="fileErrorText"><![CDATA[Il file non può essere salvato. Controlla le impostazioni dei permessi sui file]]></key>
     <key alias="fileSavedHeader"><![CDATA[File salvato]]></key>
