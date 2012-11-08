@@ -799,7 +799,8 @@ Ihr freundlicher Umbraco-Robot
     <key alias="noConsole">Zugang sperren</key>
     <key alias="password">Kennwort</key>
     <key alias="passwordChanged">Ihr Kennwort wurde geändert!</key>
-    <key alias="passwordConfirm">Bitte wiederholen Sie Ihr neues Kennwort</key>
+    <key alias="passwordCurrent" version="4.6">Aktuelle Kennwort</key>
+    <key alias="passwordInvalid">Ungültig aktuelle Kennwort</key>
     <key alias="passwordEnterNew">Geben Sie Ihr neues Kennwort ein</key>
     <key alias="passwordIsBlank">Ihr neues Kennwort darf nicht leer sein!</key>
     <key alias="passwordIsDifferent">Ihr neues Kennwort und die Wiederholung Ihres neuen Kennworts stimmen nicht überein. Bitte versuchen Sie es erneut!</key>

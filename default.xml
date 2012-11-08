@@ -75,7 +75,7 @@
   </area>
   <area alias="content">
     <key alias="about">About this page</key>
-    <key alias="alias">Alternative link</key>
+    <key alias="alias">Alias</key>
     <key alias="alternativeTextHelp">(how would you describe the picture over the phone)</key>
     <key alias="alternativeUrls">Alternative Links</key>
     <key alias="clickToEdit">Click to edit this item</key>
@@ -481,6 +481,7 @@ To manage your website, simply open the umbraco back office and start adding con
     <key alias="notAllowedByContentType">The current node is not allowed under the chosen node because of its type</key>
     <key alias="notAllowedByPath">The current node cannot be moved to one of its subpages</key>
     <key alias="notValid">The action isn't allowed since you have insufficient permissions on 1 or more child documents.</key>
+    <key alias="relateToOriginal">Relate copied items to original</key>
   </area>
   <area alias="notifications">
     <key alias="editNotifications">Edit your notification for %0%</key>
@@ -684,6 +685,7 @@ To manage your website, simply open the umbraco back office and start adding con
     <key alias="editTemplateSaved">Template saved</key>
     <key alias="editUserError">Error saving user (check log)</key>
     <key alias="editUserSaved">User Saved</key>
+	<key alias="editUserTypeSaved">User type saved</key>
     <key alias="fileErrorHeader">File not saved</key>
     <key alias="fileErrorText">file could not be saved. Please check file permissions</key>
     <key alias="fileSavedHeader">File saved</key>
@@ -856,7 +858,9 @@ To manage your website, simply open the umbraco back office and start adding con
     <key alias="passwordChanged">Your password has been changed!</key>
     <key alias="passwordConfirm">Please confirm the new password</key>
     <key alias="passwordEnterNew">Enter your new password</key>
-    <key alias="passwordIsBlank">Your new password cannot be blank!</key>
+	<key alias="passwordIsBlank">Your new password cannot be blank!</key>
+	<key alias="passwordCurrent">Current password</key>
+	<key alias="passwordInvalid">Invalid current password</key>
     <key alias="passwordIsDifferent">There was a difference between the new password and the confirmed password. Please try again!</key>
     <key alias="passwordMismatch">The confirmed password doesn't match the new password!</key>
     <key alias="permissionReplaceChildren">Replace child node permssions</key>

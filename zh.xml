@@ -15,8 +15,6 @@
     <key alias="disable">禁用</key>
     <key alias="emptyTrashcan">清空回收站</key>
     <key alias="exportDocumentType">导出文档类型</key>
-    <key alias="exportDocumentTypeAsCode">导出到.NET</key>
-    <key alias="exportDocumentTypeAsCode-Full">导出到.NET</key>
     <key alias="importDocumentType">导入文档类型</key>
     <key alias="importPackage">导入扩展包</key>
     <key alias="liveEdit">实时编辑模式</key>
@@ -77,7 +75,7 @@
   </area>
   <area alias="content">
     <key alias="about">关于本页</key>
-    <key alias="alias">替代链接</key>
+    <key alias="alias">别名</key>
     <key alias="alternativeTextHelp">（图片的替代文本）</key>
     <key alias="alternativeUrls">替代链接</key>
     <key alias="clickToEdit">点击编辑</key>
@@ -89,6 +87,7 @@
     <key alias="itemChanged">该项发布之后有更改</key>
     <key alias="itemNotPublished">该项没有发布</key>
     <key alias="lastPublished">最近发布</key>
+    <key alias="mediaLinks">媒体链接地址</key>
     <key alias="mediatype">媒体类型</key>
     <key alias="membergroup">会员组</key>
     <key alias="memberrole">角色</key>
@@ -106,7 +105,7 @@
     <key alias="statistics">统计</key>
     <key alias="titleOptional">标题（可选）</key>
     <key alias="type">类型</key>
-    <key alias="unPublish">未发布</key>
+    <key alias="unPublish">取消发布</key>
     <key alias="updateDate">最近编辑</key>
     <key alias="uploadClear">移除文件</key>
     <key alias="urls">链接到文档</key>
@@ -150,8 +149,7 @@
     <key alias="linklocaltip">本地链接请用“#”号开头</key>
     <key alias="linknewwindow">在新窗口中打开？</key>
     <key alias="macroContainerSettings">宏设置</key>
-    <key alias="macroDoesNotHaveProperties"><![CDATA[该宏没有可编辑的属性
-    ]]></key>
+    <key alias="macroDoesNotHaveProperties"><![CDATA[该宏没有可编辑的属性]]></key>
     <key alias="paste">粘贴</key>
     <key alias="permissionsEdit">编辑权限</key>
     <key alias="recycleBinDeleting">正在清空回收站，请不要关闭窗口。</key>
@@ -166,19 +164,14 @@
     <key alias="siterepublishHelp">网站缓存将会刷新，所有已发布的内容将会更新。</key>
     <key alias="tableColumns">表格列数</key>
     <key alias="tableRows">表格行数</key>
-    <key alias="templateContentAreaHelp"><![CDATA[<strong>设置一个占位符id</strong> 您可以在子模板中通过该ID来插入内容，引用格式： <code>&lt;asp:content /&gt;</code>。
-    ]]></key>
-    <key alias="templateContentPlaceHolderHelp"><![CDATA[从下面的列表中<strong>选择一个占位符id</strong>。
-    ]]></key>
+    <key alias="templateContentAreaHelp"><![CDATA[<strong>设置一个占位符id</strong> 您可以在子模板中通过该ID来插入内容，引用格式： <code>&lt;asp:content /&gt;</code>。]]></key>
+    <key alias="templateContentPlaceHolderHelp"><![CDATA[从下面的列表中<strong>选择一个占位符id</strong>。]]></key>
     <key alias="thumbnailimageclickfororiginal">点击图片查看完整大小</key>
     <key alias="treepicker">拾取项</key>
     <key alias="viewCacheItem">查看缓存项</key>
   </area>
   <area alias="dictionaryItem">
-    <key alias="description"><![CDATA[
-      为字典项编辑不同语言的版本‘<em>%0%</em>’<br/>您可以在左侧的“语言”中添加一种语言
-   
-   ]]></key>
+    <key alias="description"><![CDATA[为字典项编辑不同语言的版本‘<em>%0%</em>’<br/>您可以在左侧的“语言”中添加一种语言]]></key>
     <key alias="displayName">语言名称</key>
   </area>
   <area alias="editcontenttype">
@@ -342,10 +335,7 @@
     <key alias="databaseErrorWebConfig">无法保存web.config文件，请手工修改。</key>
     <key alias="databaseFound">发现数据库</key>
     <key alias="databaseHeader">数据库配置</key>
-    <key alias="databaseInstall"><![CDATA[
-      点击<strong>安装</strong>进行 %0% 数据库配置
-    
-    ]]></key>
+    <key alias="databaseInstall"><![CDATA[点击<strong>安装</strong>进行 %0% 数据库配置]]></key>
     <key alias="databaseInstallDone"><![CDATA[%0%数据库安装完成。点击<strong>下一步</strong>继续。]]></key>
     <key alias="databaseNotFound"><![CDATA[<p>数据库未找到！请检查数据库连接串设置。</p>
               <p>您可以自行编辑“web.config”文件，键名为 “umbracoDbDSN”</p>
@@ -363,7 +353,6 @@
       <p>
       不用担心更新会丢失数据！
       </p>    
-      
     ]]></key>
     <key alias="databaseUpgradeDone"><![CDATA[数据库已更新到版本 %0%。<br />点击<strong>下一步</strong>继续。]]></key>
     <key alias="databaseUpToDate"><![CDATA[您的数据库已安装！点击<strong>下一步</strong>继续]]></key>
@@ -378,7 +367,6 @@
         <p>
         该步骤建议您修改默认密码。
         </p>
-      
     ]]></key>
     <key alias="greatStart">作为入门者，从视频教程开始吧！</key>
     <key alias="licenseText">点击下一步 (或在Web.config中自行修改umbracoConfigurationStatus)，意味着您接受上述许可协议。</key>
@@ -414,14 +402,12 @@
        此时您的网站是全空的,您应该首先建立您的文档类型和模板
         (<a href="http://umbraco.tv/documentation/videos/for-site-builders/foundation/document-types">如何操作？</a>)
        您也可以安装晚一些安装“Runway”。
-      
     ]]></key>
     <key alias="runwayHeader">您刚刚安装了一个干净的系统，要继续吗？</key>
     <key alias="runwayInstalled">“Runway”已安装</key>
     <key alias="runwayInstalledText"><![CDATA[
 		在顶部选择您想要的功能模块<br />
       这是我们推荐的模块，您也可以查看 <a href="#" onclick="toggleModules(); return false;" id="toggleModuleList">全部模块</a>
-      
     ]]></key>
     <key alias="runwayOnlyProUsers">仅推荐高级用户使用</key>
     <key alias="runwaySimpleSite">给我一个简单的网站</key>
@@ -435,7 +421,6 @@
         <em>Runway:</em> Home page, Getting Started page, Installing Modules page.<br />
         <em>可选模块:</em> Top Navigation, Sitemap, Contact, Gallery.
         </small>
-      
     ]]></key>
     <key alias="runwayWhatIsRunway">“Runway”是什么？</key>
     <key alias="step1">步骤 1/5：接受许可协议</key>
@@ -490,6 +475,7 @@
     <key alias="notAllowedByContentType">类型不符不允许选择</key>
     <key alias="notAllowedByPath">该项不能移到其子项</key>
     <key alias="notValid">您在子项的权限不够，不允许该操作。</key>
+    <key alias="relateToOriginal">复本和原本建立关联</key>
   </area>
   <area alias="notifications">
     <key alias="editNotifications">为 %0% 编写通知</key>
@@ -504,8 +490,7 @@
     ]]></key>
     <key alias="mailBodyHtml"><![CDATA[<p>%0%：</p>
 
-		  <p>您好！这是一封自动发送的邮件，告诉您任务<strong>'%1%'</strong>已在<a href="%7%"><strong>'%2%'</strong></a>被用户<strong>'%3%'</strong>执行
-	  </p>
+		  <p>您好！这是一封自动发送的邮件，告诉您任务<strong>'%1%'</strong>已在<a href="%7%"><strong>'%2%'</strong></a>被用户<strong>'%3%'</strong>执行</p>
 		  <div style="margin: 8px 0; padding: 8px; display: block;">
 				<br />
 				<a style="color: white; font-weight: bold; background-color: #66cc66; text-decoration : none; margin-right: 20px; border: 8px solid #66cc66; width: 150px;" href="http://%4%/actions/publish.aspx?id=%5%">&nbsp;&nbsp;PUBLISH&nbsp;&nbsp;</a> &nbsp; 
@@ -539,7 +524,6 @@
     <key alias="chooseLocalPackageText"><![CDATA[
       从本机安装扩展包，可以点击“浏览”按钮<br />
       选择 ".umb" 或者 ".zip" 文件
-            
     ]]></key>
     <key alias="packageAuthor">作者</key>
     <key alias="packageDemonstration">演示</key>
@@ -603,37 +587,25 @@
     <key alias="publishAll">发布 %0% 及其子项</key>
     <key alias="publishHelp"><![CDATA[点 <em>确定</em> 发布 <strong>%0%</strong><br/><br />
 要发布当前页和所有子页，请选中 <em>全部发布</em> 发布所有子页。
-      
     ]]></key>
   </area>
   <area alias="relatedlinks">
-    <key alias="addExternal"><![CDATA[加入外部链接
-    ]]></key>
-    <key alias="addInternal"><![CDATA[加入内部链接
-    ]]></key>
-    <key alias="addlink"><![CDATA[添加
-    ]]></key>
-    <key alias="caption"><![CDATA[标题
-    ]]></key>
-    <key alias="internalPage"><![CDATA[站内页面
-    ]]></key>
-    <key alias="linkurl"><![CDATA[链接地址
-    ]]></key>
-    <key alias="modeDown"><![CDATA[下移
-    ]]></key>
-    <key alias="modeUp"><![CDATA[上移
-    ]]></key>
-    <key alias="newWindow"><![CDATA[新窗口打开
-    ]]></key>
-    <key alias="removeLink"><![CDATA[移除链接
-    ]]></key>
+    <key alias="addExternal"><![CDATA[加入外部链接]]></key>
+    <key alias="addInternal"><![CDATA[加入内部链接]]></key>
+    <key alias="addlink"><![CDATA[添加]]></key>
+    <key alias="caption"><![CDATA[标题]]></key>
+    <key alias="internalPage"><![CDATA[站内页面]]></key>
+    <key alias="linkurl"><![CDATA[链接地址]]></key>
+    <key alias="modeDown"><![CDATA[下移]]></key>
+    <key alias="modeUp"><![CDATA[上移]]></key>
+    <key alias="newWindow"><![CDATA[新窗口打开]]></key>
+    <key alias="removeLink"><![CDATA[移除链接]]></key>
   </area>
   <area alias="rollback">
     <key alias="currentVersion">当前版本</key>
     <key alias="diffHelp"><![CDATA[显示当前版本和选择版本的差异<br /><del>红色</del>是选中版本中没有的。<ins>绿色是新增的</ins>]]></key>
     <key alias="documentRolledBack">文档已回滚</key>
-    <key alias="htmlHelp"><![CDATA[将选中版本显示为HTML，如果您想看到版本间的差异比较，请使用对比视图。
-    ]]></key>
+    <key alias="htmlHelp"><![CDATA[将选中版本显示为HTML，如果您想看到版本间的差异比较，请使用对比视图。]]></key>
     <key alias="rollbackTo">回滚至</key>
     <key alias="selectVersion">选择版本</key>
     <key alias="view">查看</key>
@@ -701,6 +673,7 @@
     <key alias="editTemplateSaved">模板已保存</key>
     <key alias="editUserError">保存用户出错（请查看日志）</key>
     <key alias="editUserSaved">用户已保存</key>
+    <key alias="editUserTypeSaved">用户类型已保存</key>
     <key alias="fileErrorHeader">文件未保存</key>
     <key alias="fileErrorText">文件无法保存，请检查权限。</key>
     <key alias="fileSavedHeader">文件保存</key>
@@ -709,16 +682,16 @@
     <key alias="pythonErrorHeader">Python脚本未保存</key>
     <key alias="pythonErrorText">Python脚本因为错误未能保存</key>
     <key alias="pythonSavedHeader">Python已保存</key>
-    <key alias="pythonSavedText">python脚本无错误</key>
+    <key alias="pythonSavedText">Python脚本无错误</key>
     <key alias="templateErrorHeader">模板未保存</key>
     <key alias="templateErrorText">模板别名相同</key>
     <key alias="templateSavedHeader">模板已保存</key>
     <key alias="templateSavedText">模板保存，无错误。</key>
-    <key alias="xsltErrorHeader">Xslt未保存</key>
-    <key alias="xsltErrorText">Xslt有错误</key>
-    <key alias="xsltPermissionErrorText">Xslt无法保存，请检查权限。</key>
-    <key alias="xsltSavedHeader">Xslt已保存</key>
-    <key alias="xsltSavedText">xslt无错误</key>
+    <key alias="xsltErrorHeader">XSLT未保存</key>
+    <key alias="xsltErrorText">XSLT有错误</key>
+    <key alias="xsltPermissionErrorText">XSLT无法保存，请检查权限。</key>
+    <key alias="xsltSavedHeader">XSLT已保存</key>
+    <key alias="xsltSavedText">XSLT无错误</key>
   </area>
   <area alias="stylesheet">
     <key alias="aliasHelp">使用CSS语法，如：h1、.redHeader、.blueTex。</key>
@@ -746,8 +719,9 @@
     <key alias="chooseField">选取字段</key>
     <key alias="convertLineBreaks">转换换行符</key>
     <key alias="convertLineBreaksHelp">将换行符转化为&amp;lt;br&amp;gt;</key>
+    <key alias="customFields">自定义字段</key>
     <key alias="dateOnly">是，仅日期</key>
-    <key alias="encoding">REMOVE ME: 编码</key>
+    <key alias="encoding">编码</key>
     <key alias="formatAsDate">格式化时间</key>
     <key alias="htmlEncode">HTML编码</key>
     <key alias="htmlEncodeHelp">将替换HTML中的特殊字符</key>
@@ -760,6 +734,7 @@
     <key alias="recursive">递归</key>
     <key alias="removeParagraph">移除段落符号</key>
     <key alias="removeParagraphHelp">将移除&amp;lt;P&amp;gt;标签</key>
+    <key alias="standardFields">标准字段</key>
     <key alias="uppercase">大写</key>
     <key alias="urlEncode">URL编码</key>
     <key alias="urlEncodeHelp">将格式化URL中的特殊字符</key>
@@ -770,15 +745,14 @@
   <area alias="translation">
     <key alias="assignedTasks">标记为您的任务</key>
     <key alias="assignedTasksHelp"><![CDATA[ 下面的翻译任务<strong>分配给您</strong>. 查看详情, 点击“详情”或页名。 
-     如果需要XML格式，请点击“下载 Xml”链接。<br/>
+     如果需要XML格式，请点击“下载 XML”链接。<br/>
      关闭翻译任务，请返回详细视图点击“关闭”按钮。
-    
     ]]></key>
     <key alias="closeTask">关闭任务</key>
     <key alias="details">翻译详情</key>
     <key alias="downloadAllAsXml">将翻译任务下载为xml</key>
-    <key alias="downloadTaskAsXml">下载 xml</key>
-    <key alias="DownloadXmlDTD">下载 xml DTD</key>
+    <key alias="downloadTaskAsXml">下载 XML</key>
+    <key alias="DownloadXmlDTD">下载 XML DTD</key>
     <key alias="fields">字段</key>
     <key alias="includeSubpages">包含子页</key>
     <key alias="mailBody"><![CDATA[
@@ -798,7 +772,6 @@
     <key alias="ownedTasksHelp"><![CDATA[ 下面是<strong>您创建</strong>的页面. 查看详情, 点击“详情” 或页名. 
      如果需要XML格式，请点击“下载 Xml”链接。<br/>
      关闭翻译任务，请返回详细视图点击“关闭”按钮。
-    
     ]]></key>
     <key alias="pageHasBeenSendToTranslation">页面'%0%'已经发送给翻译</key>
     <key alias="sendToTranslate">发送页面'%0%'以便翻译</key>
@@ -869,7 +842,9 @@
     <key alias="password">密码</key>
     <key alias="passwordChanged">您的密码已更改！</key>
     <key alias="passwordConfirm">重输密码</key>
+    <key alias="passwordCurrent">当前密码</key>
     <key alias="passwordEnterNew">输入新密码</key>
+    <key alias="passwordInvalid">密码错误</key>
     <key alias="passwordIsBlank">新密码不能为空！</key>
     <key alias="passwordIsDifferent">新密码和重输入的密码不一致，请重试！</key>
     <key alias="passwordMismatch">重输的密码和原密码不一致！</key>
