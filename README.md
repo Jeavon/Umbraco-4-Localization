@@ -52,4 +52,4 @@ Language updates pending after 4.11.0 release
 ======================
 **The following key has been added to the 'general' area:**
 
-*key alias="folder" -> The name for "Folder"
+*key alias="folder" -> **The name for "Folder"**
