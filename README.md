@@ -53,3 +53,38 @@ Language updates pending after 4.11.0 release
 **The following key has been added to the 'general' area:**
 
 *key alias="folder" -> The name for "Folder"*
+
+
+Language updates pending after 4.11.1 release
+======================
+**The following key has been updated in the 'assignDomain' area:**
+
+*key alias="domainHelp" -> Helptext for assigning hostnames to a node*
+
+**The following key has been added to the 'buttons' area:**
+
+*key alias="showPageDisabled" -> Shown when preview is disabled because the content has no template*
+
+**The following key has been added to the 'publish' area:**
+
+*key alias="contentPublishedFailedByParent" -> Shown if a page can't be published because the parent isn't published*
+
+**The following key has been added to the 'settings' area:**
+
+*key alias="contentTypeEnabled" -> Shown on child document types: 'Master Content Type enabled'*
+
+**The following key has been added to the 'settings' area:**
+
+*key alias="contentTypeUses" -> Shown on child document types: 'This Content Type uses'*
+
+**The following key has been added to the 'settings' area:**
+
+*key alias="asAContentMasterType" -> Shown on child document types: 'as a Master Content Type. Tabs from Master Content Types are not shown and can only be edited on the Master Content Type itself'*
+
+**The following key has been added to the 'user' area:**
+
+*key alias="newPassword" -> Shown when changing your password, asks for new password*
+
+**The following key has been added to the 'user' area:**
+
+*key alias="confirmNewPassword" -> Shown when changing your password, asks to confirm the new password*
