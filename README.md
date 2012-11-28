@@ -88,3 +88,7 @@ Language updates pending after 4.11.1 release
 **The following key has been added to the 'user' area:**
 
 *key alias="confirmNewPassword" -> Shown when changing your password, asks to confirm the new password*
+
+**The following key has been added to the 'actions' area:**
+
+*key alias="invalidDomain" -> Shown when trying to set a hostname that is not valid*
