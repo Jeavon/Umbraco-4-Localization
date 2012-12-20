@@ -92,3 +92,12 @@ Language updates pending after 4.11.1 release
 **The following key has been added to the 'assignDomain' area:**
 
 *key alias="invalidDomain" -> Shown when trying to set a hostname that is not valid*
+
+
+**The following key has been added to the 'speechBubbles' area:**
+
+*key alias="contentUnpublished" -> Shown when content has been unpublished*
+
+**The following key has been added to the 'actions' area:**
+
+*key alias="unpublish" -> Shown when content has been unpublished*
