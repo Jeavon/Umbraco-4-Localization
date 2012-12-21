@@ -32,6 +32,7 @@
     <key alias="sort">排序</key>
     <key alias="toPublish">提交至发布者</key>
     <key alias="translate">翻译</key>
+    <key alias="unpublish">取消发布</key>
     <key alias="update">更新</key>
   </area>
   <area alias="assignDomain">
@@ -670,6 +671,7 @@
     <key alias="contentTypeTabCreated">选项卡已创建</key>
     <key alias="contentTypeTabDeleted">选项卡已删除</key>
     <key alias="contentTypeTabDeletedText">id为%0%的选项卡已删除</key>
+    <key alias="contentUnpublished">内容已取消发布</key>
     <key alias="cssErrorHeader">样式表未保存</key>
     <key alias="cssSavedHeader">样式表已保存</key>
     <key alias="cssSavedText">样式表保存，无错误。</key>
