@@ -101,3 +101,19 @@ Language updates pending after 4.11.1 release
 **The following key has been added to the 'actions' area:**
 
 *key alias="unpublish" -> Shown when content has been unpublished*
+
+**The following key has been added to the 'speechBubbles' area:**
+
+*key alias="partialViewSavedHeader" -> Shown when partial view has been saved*
+
+**The following key has been added to the 'speechBubbles' area:**
+
+*key alias="partialViewSavedText" -> Shown when partial view has been saved*
+
+**The following key has been added to the 'speechBubbles' area:**
+
+*key alias="partialViewErrorHeader" -> Shown when partial view has been saved*
+
+**The following key has been added to the 'speechBubbles' area:**
+
+*key alias="partialViewErrorText" -> Shown when partial view has been saved*
