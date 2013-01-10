@@ -32,6 +32,7 @@
     <key alias="sort">Ordina</key>
     <key alias="toPublish">Invia la pubblicazione</key>
     <key alias="translate">Traduci</key>
+    <key alias="unpublish">Annulla pubblicazione</key>
     <key alias="update">Aggiorna</key>
   </area>
    <area alias="assignDomain">
@@ -633,6 +634,7 @@ Per gestire il tuo sito web, è sufficiente aprire il back office di Umbraco e i
     <key alias="contentTypeTabCreated">Tab creata</key>
     <key alias="contentTypeTabDeleted">Tab eliminata</key>
     <key alias="contentTypeTabDeletedText">Tab con id: %0% eliminata</key>
+    <key alias="contentUnpublished">Contenuto non pubblicato</key>
     <key alias="cssErrorHeader"><![CDATA[Foglio di stile non salvato]]></key>
     <key alias="cssSavedHeader"><![CDATA[Foglio di stile salvato]]></key>
     <key alias="cssSavedText"><![CDATA[Foglio di stile salvato correttamente]]></key>
