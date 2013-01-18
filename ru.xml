@@ -708,6 +708,10 @@
     <key alias="fileSavedHeader">Файл сохранен</key>
     <key alias="fileSavedText">Файл сохранен без ошибок</key>
     <key alias="languageSaved">Язык сохранен</key>
+    <key alias="partialViewErrorHeader">Представление не сохранено</key>
+    <key alias="partialViewErrorText">Произошла ошибка при сохранении файла</key>
+    <key alias="partialViewSavedHeader">Представление сохранено</key>
+    <key alias="partialViewSavedText">Представление сохранено без ошибок</key>
     <key alias="pythonErrorHeader">Cкрипт Python не сохранен</key>
     <key alias="pythonErrorText">Cкрипт Python не может быть сохранен в связи с ошибками</key>
     <key alias="pythonSavedHeader">Cкрипт Python сохранен</key>
